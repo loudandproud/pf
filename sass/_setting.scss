@@ -1,0 +1,44 @@
+$body-font-family:"Open Sans", Verdana, Geneva, sans-serif;
+$body-font-family2:"Bodyfont2", "Open Sans", Verdana, Geneva, sans-serif;
+$title-font-fmialy1:Candida sans-serif;
+$portfolio-font-fmialy:Roboto2014 sans-serif;
+
+@mixin font-face{
+	@font-face {
+		font-family:Bodyfont2;
+		src:url(fonts/Proxima-Nova-A.otf);
+	}
+
+	@font-face {
+		font-family:Candida;
+		src:url(fonts/CandidaStd-Roman.otf);
+	}
+
+	@font-face {
+		font-family:Candida;
+		font-weight:800;
+		src:url(fonts/CandidaStd-Bold.otf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		src:url(fonts/Roboto-Regular.ttf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		font-weight:100;
+		src:url(fonts/Roboto-Light.ttf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		font-weight:800;
+		src:url(fonts/Roboto-Bold.ttf);
+	}
+
+	@font-face {
+		font-family:Gurmukh;
+		src:url(fonts/GurmukhiMN.ttf);
+	}
+}

@@ -1,0 +1,378 @@
+/*****************************************
+
+		Portfolio - Listpage
+
+******************************************/
+
+/*******************************
+
+	Portfolio - Common
+
+********************************/
+.portfolio{
+	width:1200px;
+}
+
+.portfolio-h1{
+	font-size:60px;
+	font-family:Roboto2014, "Open Sans", Verdana;
+}
+
+.portfolio-h2{
+	margin:30px;
+}
+
+.portfolio-h3{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.portfolio-i{
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.left-ubc,
+.left-ecm{
+	position:relative;
+}
+
+.pf-right{	
+	float:right;
+	width:60%;
+	margin-right:8%;
+}
+
+.pf-next{
+	position:absolute;
+	top: 320px;
+	width: 240px;
+	padding:20px;
+	border:1px solid #333;
+	color:#333;
+	text-align:center;
+	font-size: 18px;
+}
+
+.pf-next-w{
+	position:absolute;
+	top: 320px;
+	width: 240px;
+	padding:20px;
+	border:1px solid #fff;
+	color:#fff;
+	text-align:center;
+	font-size: 18px;
+}
+
+.view-details-w{
+	width: 210px;
+	padding: 20px;
+	color:#fff;
+	font-size: 18px;
+	border:1px solid #fff;
+	text-align: center;
+}
+
+
+.pf-next-img{
+	position:relative;
+	top:40px;
+}
+
+/*******************************
+
+	Listpage - UBCBAJA
+
+********************************/
+.businesscard{
+	width:30%;
+}
+
+.portfolio-ubc{
+	position:relative;
+	padding:30px 30px 0;
+	background-image: url(img/ubcbaja/ubctop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+	text-shadow:1px 1px 0 #6c6c6c;
+}
+
+	.ubc-winner{
+		margin:20px 0;
+	}
+
+.ubc-top-img{
+	width:530px;
+	margin:0 auto;
+}
+
+.ubc-top-pc{
+	float:left;
+}
+
+.ubc-top-ph{
+	float:right;
+	position:relative;
+	top:128px;
+}
+
+.pf-next-ubc{
+	background-color:rgba(69,66,178,0.5);
+}
+
+/*******************************
+
+	Listpage - Newsportal
+
+********************************/
+
+.portfolio-nwp{
+	position:relative;
+	padding:30px 30px 0;
+	background-color:#f1f1f1;
+	background-image:url(img/newsportal/nwptop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size:cover;
+	color:#fff;
+	text-shadow:1px 1px 0 #333333;
+	overflow-x:hidden;	
+}
+
+	.nwp-topimg{
+		margin-right: 160px;
+	}
+	
+.pf-next-nwp{
+	background-color:rgba(16,13,6,0.6);
+}	
+	
+/*******************************
+
+	Listpage - Ecommerce
+
+********************************/
+.portfolio-ecm{
+	position: relative;
+	padding:30px 0 0 30px;
+	background-image:url(img/ecommerce/ecmtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	text-shadow: 1px 1px #bdbdbd;
+	overflow-x:hidden;
+}
+
+
+	.ecm-topimg{
+		width: 57%;		
+		margin-top:-60px;
+		margin-right: 0;
+	}
+
+.pf-next-ecm{
+	top:250px;
+	background-color:rgba(255,255,255,0.6);
+}
+/*******************************
+
+	Listpage - ReggieKeyWatson
+
+********************************/
+
+.portfolio-rgk{
+	position:relative;
+	padding: 0;
+	background-color:#212121;
+	color:#fff;
+	text-shadow:1px 1px #888888;
+}
+
+
+	.left-rgk{
+		position: relative;
+		float: left;
+		background-repeat: no-repeat;
+		width: 40%;
+		height: 600px;
+	 }
+
+	 .left-rgk:before{
+		content: "";
+		width: 100%;
+		height: 600px;
+		position: absolute;
+		background-image: url(img/reggiekeyswatson/rgktop-bg.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	 }
+
+		.rgkleft-inner{
+			position: absolute;
+			top: 30px;
+			left:30px;
+			z-index: 2;
+			width: 520px;
+		}
+
+			.rgkh1-c1{
+				color:#ffb53a;
+
+			}
+
+			.rgkh1-c2{
+				color:#fff;
+			}
+
+	.middle-rgk{
+		float: left;
+		width:60%;
+		height: 600px;
+	    margin-left:-200px;
+	    background-color: #383838;
+	    overflow: hidden;
+	    -ms-transform: skew(30deg,0deg); /* IE 9 */
+	    -webkit-transform: skew(30deg,0deg); /* Chrome, Safari, Opera */
+	    transform: skew(30deg,0deg); /* Standard syntax */	    
+	}
+
+		.rgk-topimg{
+			max-width:120%;
+			margin-top: 100px;
+			margin-left: 10px;
+			-ms-transform: skew(-30deg,0deg); /* IE 9 */
+			-webkit-transform: skew(-30deg,0deg); /* Chrome, Safari, Opera */
+			transform: skew(-30deg,0deg); /* Standard syntax */
+		}
+
+	.right-rgk{
+		float: left;
+		width: 13%;
+		position:relative;
+	}	
+.pf-next-rgk{
+	background-color:rgba(58,19,77,0.6);
+}
+
+/*******************************
+
+	Listpage - WazabiBuzz
+
+********************************/
+.portfolio-wzb{
+	position:relative;
+	padding: 30px 0 0 30px;
+	background-image: url(img/wazabibuzz/wzbtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	text-shadow:1px 1px #bebebe;
+}
+
+.left-wzb{
+	float: left;
+	width: 30%;
+	color:#58CA0C;
+}
+
+.pf-next-wzb{
+	color:#fff;
+	border:1px solid #fff;
+	background-color:rgba(88,202,12,0.65);
+}
+
+.wzb-imgwrp{
+	float: left;
+	width:70%;
+	overflow: hidden;
+}
+
+	.wzb-top{
+		position: relative;
+		float:left;
+		width: 535px;
+		height: 520px;
+		margin-right: 100px;
+		background-image:url(img/wazabibuzz/wzb-topsmartphone.png);
+		background-repeat: no-repeat;
+		background-size:cover;
+		-webkit-background-size:cover;
+	}
+
+		.wzb-top:after{
+			content:"";
+			position: absolute;
+			width: 340px;
+			height: 360px;
+			top:170px;
+			left: 195px;
+			background-image:url(img/wazabibuzz/wzb-topsmartphone-front.png);
+			background-repeat: no-repeat;
+			z-index: 1;
+		}
+
+	.wzb-top-inner{
+		position: relative;
+		width: 252px;
+		height: 447px;
+		overflow: hidden;
+		left: 85px;
+		top: 92px;
+	}
+
+
+	.wzb-topimg{
+		position: relative;
+		-webkit-transition: all 10s ease;
+		   -moz-transition: all 10s ease;
+			-ms-transition: all 10s ease;
+			 -o-transition: all 10s ease;
+				transition: all 10s ease;
+	}
+
+	.wzb-topimg:hover{
+		margin-top: -1496px;
+	}
+
+.wzb-nextwrp{
+	float: left;
+	position:relative;
+	width: 20%;
+}
+
+	.next-wzb{
+		top: 210px;
+	}
+
+/*******************************
+
+	Listpage - Eastasianserif
+
+********************************/
+.portfolio-eas{
+	position:relative;
+	height: 600px;
+	padding: 30px 0 0 30px;
+	margin-bottom: 30px;
+	background-image: url(img/eastasianserif/eastop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	color:#fff;
+}
+
+.eas-inner{
+	text-shadow:1px 1px 0 #333333;
+}
+
+.next-eas{
+	top:280px;
+}
+
+.pf-next-eas{
+	background-color:rgba(0,0,0,0.6);
+}

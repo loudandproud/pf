@@ -1,0 +1,82 @@
+/*****************************************
+
+	Contact Me
+
+******************************************/
+.contact{
+	width: 1100px;
+	margin: 0 0 40px 60px;
+}
+
+
+.contact-h1{
+	margin:30px 0;
+	text-align: left;
+	font-size: 40px;
+	font-family: Candida,TimesNewRoman;
+}
+
+.cnt-back{
+	left:20px;
+	margin:0;
+}
+
+.contact-form{
+	width: 700px;
+	margin-bottom:40px;
+}
+
+	.contact-input,
+	.contact-txtarea{
+		width: 700px;
+		padding: 6px;
+		font-size: 16px;
+		border: 1px solid #ccc;
+	}
+
+	.contact-input{
+		height:36px;
+	}
+
+
+	.contact-txtarea{
+		height:200px;	
+	}
+
+	.contact-input:focus,
+	.contact-txtarea:focus{
+		outline: none;
+	}
+
+	.contact-label{
+		display:block;
+		font-size: 18px;
+	}
+
+
+.contact-input:focus{
+	outline:none;
+}
+
+
+.submit{
+	width:100px;
+	height: 40px;
+	margin-top: 16px;
+	background-color:#FD6262;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+}	
+
+	.submit:focus{
+		border: none;
+		outline: none;
+	}
+
+.success,
+.error{
+	font-size: 20px;
+	font-style:italic;
+}

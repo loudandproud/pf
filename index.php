@@ -10,9 +10,9 @@ if($detect->isMobile()){
 <head>
 <meta charset="utf-8">
 <title>toruinamoto.com - Toru Inamoto Web Designer/Developer</title>
-<meta name="keywords" content="web designer,web developer, design, webdesign, web, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience, vancouver" />
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/jquery.powertip.css">
+<meta name="keywords" content="web designer, web developer, design, webdesign, web, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience, vancouver" />
+<meta name="description" content="Hi! I'm Toru, a web designer/developer based in Vancouver. Find out how I can help you."/>
+<link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
