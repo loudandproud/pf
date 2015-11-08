@@ -48,7 +48,7 @@
 
 .page-h1,
 .page-h2{
-	font-family:Roboto2014, "Open Sans", Verdana;
+	font-family:$portfolio-font-family;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -60,7 +60,8 @@
 }
 
 .page-h2{
-	font-size: 30px;
+	font-size: 40px;
+	line-height:38px;
 }
 
 
@@ -73,8 +74,7 @@
 
 
 .page-inner > p{
-	font-size: 18px;
-	line-height: 28px;
+	@include body-font;
 	color:#464646;
 }
 	
@@ -211,6 +211,25 @@
 		top: 72px;
 	}
 
+/*******************************
+
+	Innerpage - Gazettemag
+
+********************************/
+.gzt-h1{
+	font-size:66px;
+	line-height:52px;
+}
+
+.gzt-h2{
+	margin-bottom:70px;
+}
+
+.gzt-wf{
+	float:left;
+	width:46%;
+	@include body-font;
+}
 
 /*******************************
 
@@ -392,7 +411,6 @@
 		color:#888;
 		margin-left:40px;
 	}
-
 
 /*******************************
 
