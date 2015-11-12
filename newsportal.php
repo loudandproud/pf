@@ -1,12 +1,12 @@
-<div id="newsportal" class="panel" data-number="5">
+<div id="newsportal" class="panel" data-number="6">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
         <section class="page-sec">
-           <div class="page-inner">
+           <div class="page-inner-top">
                 <h1 class="page-h1 nwp-h1">Direct Marketing News</h1>
                 <h3 class="page-headdescription">Interface Design and Development for Frontend&amp;Backend </h3>
                 <p class="description-p">Direct Marketing News is a portal website for programming class. We were assigned to chose one topic and to build a portal website with custom CMS. 

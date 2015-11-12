@@ -16,7 +16,7 @@
             </div>
         </section>
         <section class="page-sec">
-           <div class="page-inner">
+           <div class="page-inner-3devices">
                 <img src="img/gazettemag/gazettemag-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
            </div>
         </section>

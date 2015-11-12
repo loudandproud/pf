@@ -1,12 +1,12 @@
-<div id="ecommerce" class="panel" data-number="5">
+<div id="ecommerce" class="panel" data-number="7">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
     <section class="page-sec cf">
-       <div class="page-inner">
+       <div class="page-inner-top">
             <h1 class="page-h1 ecm-h1">SNOW FREAK</h1>
             <h3 class="page-headdescription">User Interface Design</h3>
             <p class="description-p">Snow Freak was an e-commerce interface design project. Students were assigned to design two pages of whatever product they chose for Home&amp;Product page.

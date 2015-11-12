@@ -41,7 +41,7 @@ if($detect->isMobile()){
         <li><a href="#home" data-number="1" class="nav">HOME</a></li>
         <li><a href="#about" data-number="2" class="nav">ABOUT</a></li>
         <li><a href="#portfolio" data-number="3" class="nav">PORTFOLIO</a></li>
-        <li><a href="#contact" data-number="10" class="nav">CONTACT</a></li>
+        <li><a href="#contact" data-number="11" class="nav">CONTACT</a></li>
     </ul>
 </footer>
 </body>

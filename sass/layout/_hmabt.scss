@@ -10,8 +10,8 @@
 
 .headline{
 	font-size:80px;
-	font-family:Candida,TimesNewRoman;
-	margin:60px 0 0 30px;
+	font-family:$title-font-family;
+	margin:60px 0 0 60px;
 	color:#222;
 }
 
@@ -58,7 +58,7 @@
 .about-h{
 	font-size:40px;
 	margin:24px 0;
-	font-family: Candida,TimesNewRoman;
+	font-family: $title-font-family;
 	font-weight:bold;
 	text-align:center;
 	color:#fff;
@@ -66,34 +66,36 @@
 }
 
 .about-h1{
-	width:1000px;
-	font-size:50px;
-	font-family: Candida,TimesNewRoman;
-	padding:60px 0 70px 30px;
+	width:1200px;
+	font-size:60px;
+	line-height:76px;
+	font-family: $title-font-family;
+	padding:60px 0 70px 60px;
 	color:#fff;
 }
 
 
 
 .about-h2{
-	font-size:40px;
-	font-family: Roboto2014, "Open Sans", Verdana;
+	font-size:46px;
+	font-family: $portfolio-font-family;
 	color:#fff;
-	margin-bottom:30px;
+	margin-bottom:46px;
 }
 
 .about-h3-lead{
 	font-size: 26px;
-	font-family: Roboto2014, "Open Sans", Verdana;
+	font-family: $portfolio-font-family;
 	color:#fff;
 	margin-bottom: 6px;
+	margin-top:70px;
 }
 
 .about-h3{
 	font-size: 26px;
-	font-family: Roboto2014, "Open Sans", Verdana;
+	font-family: $portfolio-font-family;
 	color:#151515;
-	margin-bottom: 10px;
+	margin-bottom: 36px;
 }
 
 .goto-pf-w{
@@ -114,23 +116,23 @@
 	}
 
 .about-offer{
-	width:860px;
-	margin-left:70px;
+	width:1100px;
+	margin-left:130px;
 }
 
 	.about-offer-ul1{
-		margin-bottom:30px;
-		margin-left: 40px;	
+		margin-bottom:45px;
+		// margin-left: 40px;	
 	}
 	
 		.about-offer-ul1 > li{
 			float:left;
-			width:240px;
-			font-size:20px;
-			margin-right:30px;
+			width:280px;
+			font-size:24px;
+			margin-right:45px;
 			text-align:center;
 			color:#fff;
-			font-family: Candida,TimesNewRoman;
+			font-family: $title-font-family;
 		}
 		
 		.fa-check{
@@ -140,14 +142,15 @@
 		
 	
 	.about-offer-ul2{
-		margin-left: 67px;
+		margin-left: 80px;
 	}
 		
 		.about-offer-ul2 > li{
 			font-size:20px;
+			line-height:26px;
 			list-style:disc;
 			color:#fff;
-			font-family: Candida,TimesNewRoman;
+			font-family: $title-font-family;
 		}
 
 .about-bg1{
@@ -159,12 +162,12 @@
 }
 
 .panel-profile{
-	padding:60px 60px 60px 116px;
+	padding:100px 60px 60px 130px;
 }
 
 	.about-profile{
 		float:left;
-		margin-top:20px;
+		// margin-top:20px;
 	}
 	
 		.about-h2-tools{
@@ -173,8 +176,8 @@
 		
 		.about-biography{
 			width:600px;
-			padding-left:60px;
-			font-size:18px;
+			margin-left:62px;
+			font-size:20px;
 			line-height: 28px;
 			color:#747474;
 			margin-bottom:36px;
@@ -187,8 +190,8 @@
 		
 .about-myself{
 	float:left;
-	margin: 120px 0 0 90px;
-
+	margin: 120px 0 0 96px;
+	width:194px;
 }
 
 		

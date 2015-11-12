@@ -37,8 +37,21 @@
 .page-inner{
 	width:1200px;
 	margin:0 auto;
-	padding:40px 60px 40px;
+	padding:110px 60px 80px;
 }
+
+.page-inner-top{
+	width:1200px;
+	margin:0 auto;
+	padding:40px 60px 0;
+}
+
+.page-inner-3devices{
+	width:1200px;
+	margin:0 auto;	
+	padding:110px 0 80px;
+}
+
 
 .inner-content-nwp,
 .inner-content-wzb{
@@ -60,8 +73,8 @@
 }
 
 .page-h2{
-	font-size: 40px;
-	line-height:38px;
+	font-size: 46px;
+	line-height:42px;
 }
 
 
@@ -73,7 +86,8 @@
 }
 
 
-.page-inner > p{
+.page-inner > p,
+.page-inner-top > p{
 	@include body-font;
 	color:#464646;
 }
@@ -105,12 +119,12 @@
 	}
 	
 .bg1{
-	background-color:#f4f4f4;
+	// background-color:#f4f4f4;
 	border-top:1px solid #ddd;
 }
 
 .bg2{
-	background-color:#f9f9f9;
+	// background-color:#f9f9f9;
 	border-top:1px solid #ddd;
 }
 
@@ -211,26 +225,166 @@
 		top: 72px;
 	}
 
+.page-iphone6{
+	float:left;
+	width: 340px;
+	height: 606px;
+	margin-right: 60px;
+	margin-left:100px;
+	background-image:url(img/iphone6.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+	
+	.page-iphone6:after{
+		content: "";
+		position: absolute;
+		width: 140px;
+		height: 394px;
+		top: 8px;
+		left: 252px;
+		background-image: url(img/smartphone-glare.png);	
+		background-repeat: no-repeat;
+		z-index: 2;
+	}
+
+	.page-iphone6-inner{
+		position: relative;
+		width: 236px;
+		height: 418px;
+		overflow: hidden;
+		left: 51px;
+		top: 67px;
+	}
+
+.page-tablet{
+	float: left;
+	position: relative;
+	width: 657px;
+	height: 862px;
+	background-image:url(img/tablet.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+
+	.page-tablet:after{
+		content: "";
+		position: absolute;
+		width: 268px;
+		height: 614px;
+		top: 4px;
+		left: 283px;
+		background-image: url(img/tablet-glare.png);	
+		background-repeat: no-repeat;
+		z-index: 2;
+	}
+
+	.page-tablet-inner{
+		position: relative;
+		width: 427px;
+		height: 569px;
+		overflow: hidden;
+		left: 101px;
+		top: 72px;
+	}
+
+
 /*******************************
 
 	Innerpage - Gazettemag
 
 ********************************/
+.gzt-b1{
+	position:relative;	
+	background-color:#171d22;	
+}
+
+.gzt-b2{
+	position:relative;	
+	background-color:#000;	
+}
+
+.gzt-b3{
+	position:relative;
+	background-color:#0B2224;
+}
+
 .gzt-h1{
 	font-size:66px;
 	line-height:52px;
 }
 
-.gzt-h2{
-	margin-bottom:70px;
-}
-
-.gzt-wf{
-	float:left;
+.gzt-cards-sec{
+	position: relative;
+	z-index:2;
+	//float:left;
 	width:46%;
+	color:#fff;
 	@include body-font;
 }
 
+.gzt-left{
+	float:left;
+	width:54%;
+	padding-right:20px;
+	@include body-font;
+	color:#fff;
+}
+
+
+.gzt-right{
+	float:right;
+	width:46%;
+	color:#fff;
+	padding-left:80px;
+	@include body-font;
+}
+
+.gzt-h2{	
+	margin-bottom:70px;
+}
+
+.gzt-cards{
+	position:absolute;
+	top:-10px;
+	right: -50px;
+	height:650px;
+	z-index:1;
+	max-width:none;
+	opacity:0.6;
+}
+
+.gzt-homewf{
+	margin-bottom: 30px;
+}
+
+.gzt-list-sp{
+	width:260px;
+}
+
+
+.gzt-circulation{
+	float:right;
+	width:46%;
+	padding-left:80px;
+	@include body-font;
+}
+
+
+.gzt-sp-post{
+	position: relative;
+	-webkit-transition: all 10s ease;
+	   -moz-transition: all 10s ease;
+		-ms-transition: all 10s ease;
+		 -o-transition: all 10s ease;
+			transition: all 10s ease;
+}
+
+	.gzt-sp-post:hover{
+		margin-top: -1930px;
+	}
 /*******************************
 
 	Innerpage - UBCBAJA
@@ -282,7 +436,10 @@
 		.listblue-inner{
 			color:#464646;
 		}
-		
+
+.ubc-mockup{
+	padding-left: 60px;
+}
 
 .ubc-inner-h3{
 	font-size:30px;
@@ -306,10 +463,7 @@
 		.ubc-wf > li:before{
 			background-color:#FD8B3F;
 		}
-	
-	
-	
-	
+
 .ubc-homewf{
 	margin-bottom: 30px;
 }
@@ -668,7 +822,7 @@
 	margin-bottom: 100px;
 	background:
 		url(img/eastasianserif/crane.png) right 10px top 200px no-repeat,
-		url(img/eastasianserif/sakura.png) -10px 1100px no-repeat;
+		url(img/eastasianserif/sakura.png) -10px 1160px no-repeat;
 }
 
 .eas-h2{
@@ -682,7 +836,7 @@
 }
 	
 .eas-clg{
-	margin-top:180px;
+	margin-top:110px;
 }
 
 	.eas-showcase{
@@ -694,8 +848,12 @@
 	width:1000px;
 	margin:20px 0 50px;
 }
-	
+
 .eas-cp{
+	padding-top:80px;
+}
+	
+.eas-cp-dcp{
 	width:1000px;
 	margin:20px 0;
 }
@@ -711,6 +869,9 @@
 	width:900px;
 }
 
+.eas-sc{
+	padding-top:80px;
+}
 
 .showcase{
 	margin:0 auto 50px;

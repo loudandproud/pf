@@ -1,4 +1,4 @@
-<div id="contact" class="panel" data-number="10">
+<div id="contact" class="panel" data-number="11">
     <a href="#portfolio" data-number="3" class="nav backto-panel cnt-back" id="backto">
         <img src="img/arrow-l.png"  alt="back-to-home">
     </a>

@@ -3,6 +3,12 @@
 	Responsive
 
 ****************************************************/
+@media (min-width:900px){
+	.gzt-cards{
+		right: -50px;
+	}	
+}
+
 @media (min-width: 1140px) {
 	.goto-contact{
 		margin-right:0;
@@ -17,6 +23,10 @@
 	.portfolio{
 		width:100%;
 	}
+
+	.headline{
+		font-size:90px;
+	}
 	
 	.rgk-topimg{
 		max-width:100%;
@@ -29,6 +39,11 @@
 }
 
 @media (min-width: 1400px) {
+	/***home***/
+	.headline{
+		font-size:98px;
+	}
+
 	.backtoabout{
 		left:50%;
 		margin-left:-580px;
@@ -42,28 +57,26 @@
 }
 
 @media (min-width: 1600px) {
-	/***home***/
-	.headline{
-		font-size:100px;
-	}
+
 	/***about***/
 	.about-h1{
-		width:1200px;
-		font-size:60px;
+		width:1400px;
+		font-size:70px;
+		line-height:86px;
 	}
 	
-	.about-h2{
-		font-size:46px;
-		margin-bottom:46px;
-	}
+	// .about-h2{
+	// 	font-size:46px;
+	// 	margin-bottom:46px;
+	// }
 	
-	.about-offer{
-		width:1100px;
-	}
+	// .about-offer{
+	// 	width:1100px;
+	// }
 	
-	.about-offer-ul1{
-		margin-bottom:45px;
-	}
+	// .about-offer-ul1{
+	// 	margin-bottom:45px;
+	// }
 	
 	.about-offer-ul1 > li{
 		width:280px;
@@ -72,13 +85,13 @@
 	}
 	
 	.about-h3-lead{
-		margin-top:50px;
+		//margin-top:70px;
 		margin-bottom: 10px;
 	}
 	
 	.about-offer-ul2 > li{
 		font-size:22px;
-		margin-bottom: 2px;
+		line-height: 28px;
 	}
 	
 	.about-h3{
@@ -176,23 +189,24 @@
 	}
 	
 	/***about***/
-	.about-h1{
-		width:1300px;
-		font-size:66px;
-	}
+	// .about-h1{
+	// 	width:1600px;
+	// 	font-size:66px;
+	// }
 	
 	.about-h2{
-		font-size:50px;
+		font-size:48px;
+		margin-bottom:48px;
+		letter-spacing:0.3px;
 	}
 	
 	.about-offer{
 		width:1200px;
-		margin-left:90px;
+		margin-left: 160px;
 	}
 	
 	.about-offer-ul1 {
 		margin-bottom:60px;
-		margin-left: 80px;
 	}
 	
 	.about-offer-ul1 > li{
@@ -211,10 +225,11 @@
 	
 	.about-offer-ul2 > li{
 		font-size:24px;
+		line-height: 30px;
 	}
 	
 	.panel-profile{
-		padding:60px 60px 60px 166px;
+		padding:100px 60px 60px 160px;
 	}
 	
 	.about-h3{
@@ -223,10 +238,12 @@
 	
 	.about-biography{
 		font-size:19px;
+		margin-left: 82px;
 	}
 	
 	.about-myself{
 		margin:120px 0 0 180px;
+		width:214px;
 	}
 	
 	.goto-pf-w{

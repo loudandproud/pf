@@ -1,12 +1,12 @@
-<div id="wazabibuzz" class="panel" data-number="8">
+<div id="wazabibuzz" class="panel" data-number="9">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
     <section class="page-sec">
-    <div class="page-inner">
+    <div class="page-inner-top">
         <h1 class="page-h1 wzb-h1">WaZabiBuzz</h1>
         <h3 class="page-headdescription">Mobile First Design, Wordpress Integration</h3>
         <p class="description-p">WaZabiBuzz is a viral media website for business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.

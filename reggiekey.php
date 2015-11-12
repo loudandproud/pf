@@ -1,12 +1,12 @@
-<div id="reggiekey" class="panel" data-number="6">
+<div id="reggiekey" class="panel" data-number="8">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
     <section class="page-sec">
-       <div class="page-inner">
+       <div class="page-inner-top">
             <h1 class="page-h1 rgk-h1">Reggie Key Watson</h1>
             <h3 class="page-headdescription">Branding Case Study</h3>
             <p class="description-p">Reggie Key Watson is a professional jazz piano player and we were assigned to make his website to build his personal brand.</p>

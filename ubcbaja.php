@@ -1,12 +1,12 @@
-<div id="ubcbaja" class="panel" data-number="4">
+<div id="ubcbaja" class="panel" data-number="5">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
         <section class="page-sec cf">
-            <div class="page-inner">
+            <div class="page-inner-top">
                 <h1 class="page-h1 ubc-h1">UBC Baja Website Contest</h1>
                 <h3 class="page-headdescription">Interface Design &amp; HTML&amp;CSS Coding</h3>
                 <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. They had a competition to renew their website's design on Decewmber 2013. All students in Web Development class at Vanarts were assigned to perticipate in the competition. We had to submit two graphic designs of thier webpage. I was really happy to be chosen as a winner.</p>
@@ -14,7 +14,7 @@
             </div>
         </section>
         <section class="page-sec">
-           <div class="page-inner">
+           <div class="page-inner-3devices">
                 <img src="img/ubcbaja/ubc-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
            </div>
         </section>
@@ -57,11 +57,13 @@
             </div>
         </section>
         <section class="page-sec">
-            <div class="page-inner">
-                <h3 class="ubc-inner-h3-mockup">Home page Mockup</h3>
-                <p class="ubc-homemockup-p">&lowast;The graphics of the banner and the ad on background are sponsorship company's work.</p>
+            <div class="page-inner-3devices">
+                <div class="ubc-mockup">
+                    <h3 class="ubc-inner-h3-mockup">Home page Mockup</h3>
+                    <p class="ubc-homemockup-p">&lowast;The graphics of the banner and the ad on background are sponsorship company's work.</p>
+                </div>
                 <img src="img/ubcbaja/ubc-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
-            </div>
+            </div>            
         </section>
         <section class="page-sec bg2 bg-b">
             <div class="page-inner">
@@ -102,5 +104,5 @@
                 </div>
             </div>
         </section>    
-    <a href="http://theiamzone.com/toru_inamoto/ubcbaja/index.html"class="viewsite" target="_blank">View Site</a>
+    <a href="http://toruinamoto.com/ubcbajaprototype/"class="viewsite" target="_blank">View Site</a>
 </div>

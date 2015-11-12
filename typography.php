@@ -1,13 +1,13 @@
-<div id="typography" class="panel" data-number="9">
+<div id="typography" class="panel" data-number="10">
     <div class="cf eas-content">
         <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
             <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img">
         </a>
-        <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
+        <a href="#contact" data-number="11" class="nav goto-contact" id="goto">
             <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img">
         </a>
         <section class="page-sec">
-            <div class="page-inner">
+            <div class="page-inner-top">
                 <h1 class="page-h1 eas-h1">East Asian Serif</h1>
                 <h3 class="page-headdescription">Original Typeface</h3>
                 <p class="description-p">East Asian Serif is an original typeface created in Typography class. I noticed that most of all the typeface having Asian taste are script fonts.
@@ -29,16 +29,16 @@
            </div>
         </section>
         <section class="page-sec">
-           <div class="page-inner">
+           <div class="page-inner eas-cp">
                 <h2 class="page-h2 eas-h2">Creation Process</h2>
-                <p class="eas-cp">As you may know, creating font usually takes a couple of years. It was really too defficult to make a decent serif font in two months,
+                <p class="eas-cp-dcp">As you may know, creating font usually takes a couple of years. It was really too defficult to make a decent serif font in two months,
                 so I used two existing fonts, Optima and Kozuka Mincho to make the process faster. I started from copy optima as basic shape for my font,
                 and cut some parts of Kozuka Mincho character and mix and tweak them to look nice by using Adobe Illustrator.</p>
                 <img src="img/eastasianserif/creationprocess.png" alt="process1" class="easprocess-img">
             </div>
         </section>
         <section class="page-sec">
-           <div class="page-inner">
+           <div class="page-inner eas-sc">
                 <h2 class="page-h2 showcase-h2">Show Case</h2>
                 <img src="img/eastasianserif/businesscard.jpg" alt="businesscard" class="showcase">
                 <img src="img/eastasianserif/zensushi.jpg" alt="zensushi-menu" class="showcase">

@@ -7,7 +7,7 @@
                 <div class="cf left-ubc">
                     <h1 class="portfolio-h1">Gazette Magazine</h1>
                     <h3 class="portfolio-h3">Art &amp; Culture Web magazine design renewal</h3>
-                    <i class="portfolio-i">Interface Design &amp; HTML&amp;CSS coding, jQuery, PHP programming, custom Wordpress theme</i>
+                    <i class="portfolio-i">Interface Design &amp; Frontend/Wordpress Development</i>
                     <a href="#gazettemag" data-number="4" class="nav pf-next-w pf-next-gzt">
                        View Project
                     </a>
