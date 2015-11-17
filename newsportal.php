@@ -15,8 +15,8 @@
            </div>
         </section>
         <section class="page-sec">
-           <div class="page-inner">
-                <img src="img/newsportal/nwp-innertop.jpg" alt="directmarketing news home image">
+           <div class="page-inner-3devices">
+                <img src="img/newsportal/nwp-innertop2.jpg" alt="directmarketing news home image">
            </div>
         </section>
         <section class="page-sec bg1">
@@ -59,5 +59,5 @@
                 
             </div>
         </section>
-            <a href="http://theiamzone.com/toru_inamoto/directmarketing/index.php"class="viewsite vs-m" target="_blank">View Site</a>
+            <a href="http://toruinamoto.com/dmnprototype/index.php"class="viewsite vs-m" target="_blank">View Site</a>
 </div>

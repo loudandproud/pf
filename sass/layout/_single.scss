@@ -137,7 +137,7 @@
 }
 
 .wfdescription > li{
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom:14px;
 	color:#464646;
 }
@@ -148,7 +148,7 @@
 		counter-increment: item;
 		color: white;
 		margin:5px 5px 0 0;
-		padding: 0 8px;
+		padding: 5px 8px 0;
 	}
 	
 	
@@ -159,12 +159,12 @@
 .page-smartphone{
 	float:left;
 	position: relative;
-	width: 340px;
-	height: 606px;
+	width: 320px;
+	height: 565px;
 	margin-right: 60px;
 	margin-left:20px;
 	bottom: -183px;
-	background-image:url(img/smartphone.jpg);
+	background-image:url(img/smartphone2.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -175,8 +175,8 @@
 		position: absolute;
 		width: 140px;
 		height: 394px;
-		top: 13px;
-		left: 144px;
+		top: 6px;
+		left: 130px;
 		background-image: url(img/smartphone-glare.png);	
 		background-repeat: no-repeat;
 		z-index: 2;
@@ -185,20 +185,19 @@
 
 	.page-smartphone-inner{
 		position: relative;
-		width: 216px;
-		height: 382px;
+		width: 219px;
+		height: 387px;
 		overflow: hidden;
-		left: 58px;
-		top: 79px;
+		left: 47px;
+		top: 61px;
 	}
-
 
 .page-tablet{
 	float: left;
 	position: relative;
 	width: 657px;
 	height: 862px;
-	background-image:url(img/tablet.jpg);
+	background-image:url(img/tablet2.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -218,52 +217,20 @@
 
 	.page-tablet-inner{
 		position: relative;
-		width: 427px;
-		height: 569px;
+		width: 425px;
+		height: 567px;
 		overflow: hidden;
-		left: 101px;
-		top: 72px;
+		left: 102px;
+		top: 65px;
 	}
 
-.page-iphone6{
-	float:left;
-	width: 340px;
-	height: 606px;
-	margin-right: 60px;
-	margin-left:100px;
-	background-image:url(img/iphone6.jpg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-}
-	
-	.page-iphone6:after{
-		content: "";
-		position: absolute;
-		width: 140px;
-		height: 394px;
-		top: 8px;
-		left: 252px;
-		background-image: url(img/smartphone-glare.png);	
-		background-repeat: no-repeat;
-		z-index: 2;
-	}
-
-	.page-iphone6-inner{
-		position: relative;
-		width: 236px;
-		height: 418px;
-		overflow: hidden;
-		left: 51px;
-		top: 67px;
-	}
 
 .page-tablet{
 	float: left;
 	position: relative;
 	width: 657px;
 	height: 862px;
-	background-image:url(img/tablet.jpg);
+	background-image:url(img/tablet2.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -283,11 +250,11 @@
 
 	.page-tablet-inner{
 		position: relative;
-		width: 427px;
-		height: 569px;
+		width: 425px;
+		height: 567px;
 		overflow: hidden;
-		left: 101px;
-		top: 72px;
+		left: 102px;
+		top: 65px;
 	}
 
 
@@ -372,6 +339,71 @@
 	@include body-font;
 }
 
+.gzt-iphone6{
+	position:relative;
+	float:left;
+	width: 340px;
+	height: 606px;
+	margin-right: 60px;
+	margin-left:100px;
+	background-image:url(img/iphone6.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+
+
+.gzt-hover-device{
+    position: absolute;
+    display: inline-block;
+    padding-top: 23px;
+    width: auto;
+    min-width: 65px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    background-color: #f3409a;
+    border-radius: 50%;
+    left: 250px;
+    top: -80px;
+    z-index: 1;
+}
+
+.gzt-hover-device:after{
+	content: "";
+	position: absolute;
+    bottom: -8px;
+    left: 20px;
+    margin-left: 16px;
+    display: block;
+    width: 16px;
+    height: 45px;
+	background-color:#f3409a;
+    border-radius: 20px 0;
+    z-index: -1;
+}
+
+
+
+	.gzt-iphone6:after{
+		content: "";
+		position: absolute;
+		width: 140px;
+		height: 394px;
+		top: 7px;
+		left: 152px;
+		background-image: url(img/smartphone-glare.png);	
+		background-repeat: no-repeat;
+	}
+
+	.gzt-iphone6-inner{
+		position: relative;
+		width: 236px;
+		height: 418px;
+		overflow: hidden;
+		left: 51px;
+		top: 67px;
+	}
 
 .gzt-sp-post{
 	position: relative;
@@ -382,9 +414,25 @@
 			transition: all 10s ease;
 }
 
-	.gzt-sp-post:hover{
-		margin-top: -1930px;
-	}
+.gzt-sp-post:hover{
+	margin-top: -1930px;
+}
+
+.gzt-tstmnl-left{
+	float:left;
+	width:135px;
+}
+
+.gzt-tstmnl-right{
+	float:left;
+	width:800px;
+	font-size:20px;
+	color:#888;
+	margin-left:40px;
+	margin-top:4px;
+	margin-bottom:13px;
+}
+
 /*******************************
 
 	Innerpage - UBCBAJA
@@ -500,6 +548,67 @@
 	position: relative;
 }
 
+
+.ubc-hover-phone{
+    position: absolute;
+    display: inline-block;
+    padding-top: 23px;
+    width: auto;
+    min-width: 65px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    background-color: #f3409a;
+    border-radius: 50%;
+    left: 230px;
+    top: -81px;
+    z-index: 1;
+}
+
+.ubc-hover-phone:after{
+	content: "";
+	position: absolute;
+    bottom: -8px;
+    left: 20px;
+    margin-left: 16px;
+    display: block;
+    width: 16px;
+    height: 45px;
+	background: rgb(243, 64, 154);
+    border-radius: 20px 0;
+    z-index: -1;
+}
+
+.ubc-hover-tablet{
+    position: absolute;
+    display: inline-block;
+    padding-top: 26px;
+    width: 90px;
+    min-width: 65px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    background-color: #f3409a;
+    border-radius: 50%;
+    left: 510px;
+    top: -79px;
+    z-index: 1;
+}
+
+.ubc-hover-tablet:after{
+	content: "";
+	position: absolute;
+    bottom: -8px;
+    left: 20px;
+    margin-left: 16px;
+    display: block;
+    width: 16px;
+    height: 45px;
+    background-color: #f3409a;
+    border-radius: 20px 0;
+    z-index: -1;
+}
+
 .ubc-spsr-smp{
 	position: relative;
 	-webkit-transition: all 10s ease;
@@ -540,23 +649,27 @@
 	bottom: 47px;	
 }
 
+.ubc-tstmnl{
+	padding-top:10px;
+}
+
 .tstmnl{
 	width:1000px;
 	margin:60px auto;
 }
 	
-	.tstmnl-left{
+	.ubc-tstmnl-left{
 		float:left;
 		width:135px;
 	}
 	
-	.tstmnl-right{
+	.ubc-tstmnl-right{
 		float:left;
 		width:800px;
 		font-size:20px;
 		color:#888;
 		margin-left:40px;
-		margin-top:4px;
+		margin-top:35px;
 		margin-bottom:13px;
 	}
 	
@@ -603,6 +716,7 @@
 			margin-bottom: 20px;
 			font-size: 16px;
 			border: 1px solid #ccc;
+			padding:0.3rem;
 		}
 
 		.nwp-backend-send{
@@ -727,18 +841,22 @@
 		padding:30px 60px 60px;
 	}
 	
-	.wzb-p{
-		margin:20px 0;
-		font-size: 18px;
-		text-align: center;
-		line-height:28px;
-	}
+	// .wzb-p{
+	// 	margin:20px 0;
+	// 	font-size: 18px;
+	// 	text-align: center;
+	// 	line-height:28px;
+	// }
 	
+.wzb-p{
+	margin-bottom:90px;
+}
+
 .wzb-mobnav{
 	float:none;
 	bottom:0;
 	margin:0 auto;
-	background-image:url(img/smartphone-bg2.jpg)
+	// background-image:url(img/smartphone2.jpg)
 }
 	
 .inner-wzb-sphimg{
@@ -770,7 +888,6 @@
 		margin-right: 40px;
 	}
 
-
 				
 .wzb-page-mobile{
 	width:1100px;
@@ -787,7 +904,7 @@
 }
 
 	.wzb-page-smp:hover{
-		margin-top: -2136px;
+		margin-top: -2133px;
 	}
 
 
@@ -801,8 +918,22 @@
 }
 
 	.wzb-page-tbl:hover{
-		margin-top: -912px;
+		margin-top: -909px;
 	}
+
+// .wzb-bg2{
+// 	background-color:#f9f9f9;
+// 	border-top:1px solid #ddd;
+// }
+
+.wzb-smartphone-inner{
+	position: relative;
+	width: 217px;	
+	height: 387px;
+	overflow: hidden;
+	left: 48px;
+	top: 63px;
+}
 
 /*******************************
 

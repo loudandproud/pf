@@ -81,5 +81,5 @@
         <p>There are more pages; Biography, Video, Gallery and Contact page. Please check those pages by visiting the real website.</p>
         </div>
     </section>
-    <a href="http://theiamzone.com/toru_inamoto/term2-clientproject/index.php"class="viewsite vs-m" target="_blank">View Site</a>
+    <a href="http://toruinamoto.com/rkwprototype/index.php"class="viewsite vs-m" target="_blank">View Site</a>
 </div> 

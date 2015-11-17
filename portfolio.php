@@ -7,7 +7,7 @@
                 <div class="cf left-ubc">
                     <h1 class="portfolio-h1">Gazette Magazine</h1>
                     <h3 class="portfolio-h3">Art &amp; Culture Web magazine design renewal</h3>
-                    <i class="portfolio-i">Interface Design &amp; Frontend/Wordpress Development</i>
+                    <i class="portfolio-i">Interface Design &amp; Frontend+Wordpress Development</i>
                     <a href="#gazettemag" data-number="4" class="nav pf-next-w pf-next-gzt">
                        View Project
                     </a>
@@ -27,8 +27,8 @@
                     </a>
                 </div>
                 <div class="ubc-top-img cf">
-                <img src="img/ubcbaja/ubc-top-pc.jpg" alt="ubcbaja-top-pc" class="ubc-top-pc">
-                <img src="img/ubcbaja/ubc-top-ph.png" alt="ubcbaja-top-phone" class="ubc-top-ph">
+                    <img src="img/ubcbaja/ubc-top-pc.jpg" alt="ubcbaja-top-pc" class="ubc-top-pc">
+                    <img src="img/ubcbaja/ubc-top-ph2.png" alt="ubcbaja-top-phone" class="ubc-top-ph">
                 </div>
             </section>
             <section class="portfolio-nwp" id="portfolio-nwp" data-background="http://toruinamoto.com/img/newsportal/nwptop-bg.jpg">
@@ -40,7 +40,7 @@
                        View Project
                     </a>
                 </div>    
-                <img src="img/newsportal/nwp-top.png" alt="newspoprtal" class="pf-right nwp-topimg">
+                <img src="img/newsportal/nwp-top2.png" alt="newspoprtal" class="pf-right nwp-topimg">
             </section>
             <section class="portfolio-ecm" id="portfolio-ecm" data-background="http://toruinamoto.com/img/ecommerce/ecmtop-bg.jpg">
                 <div class="cf left-ecm">

@@ -12,12 +12,12 @@
                 <p class="description-p">Gazette Magazine is a local art, culture, and news magazine. The magazine started from Gastown two years ago. It featured local events, underground arts, music, fashion, and people living in Gastown.
                 The magazine successfully published first hard-copy version this January, and the second issue will come out soon.
                 </p>
-                <p class="tools-p">HTML5, CSS3, SASS, jQuery, PHP, MySQL, Photoshop, Illustrator</p>
+                <p class="tools-p">HTML5, CSS3, SASS, Gulp, jQuery, PHP, MySQL, Photoshop, Illustrator</p>
             </div>
         </section>
         <section class="page-sec">
            <div class="page-inner-3devices">
-                <img src="img/gazettemag/gazettemag-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
+                <img src="img/gazettemag/gazettemag-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
            </div>
         </section>
         <section class="page-sec gzt-b1">
@@ -63,9 +63,10 @@
         <section class="page-sec cf">
             <div class="page-inner">
 
-                <div class="ubc-mobile tip cf" title="Hover <br>The <br>Devices" >
-                    <div class="page-iphone6" id="offtip1">
-                        <div class="page-iphone6-inner">    
+                <div class="ubc-mobile cf" title="Hover <br>The <br>Devices" >
+                    <div class="gzt-iphone6">
+                        <div class="gzt-hover-device">Hover the phone!</div>
+                        <div class="gzt-iphone6-inner">    
                             <img src="img/gazettemag/sp-post.jpg" alt="gazettemag-smartphone-post" class="gzt-sp-post">
                         </div>
                     </div>
@@ -84,8 +85,8 @@
             <div class="page-inner">
                 <h2 class="page-h2 ">What they had to say...</h2>
                 <div class="tstmnl cf">
-                    <img src="img/gazettemag/dani.jpg" alt="gazette-magazine-testmimonial" class="tstmnl-left">
-                    <p class="tstmnl-right">Toru is second to none.</p>
+                    <img src="img/gazettemag/dani.jpg" alt="gazette-magazine-testmimonial" class="gzt-tstmnl-left">
+                    <p class="gzt-tstmnl-right">Toru is second to none.</p>
                     <span class="tstmnl-spn">Dani Kremeniuk, Art Director</span>
                 </div>
             </div>

@@ -15,9 +15,9 @@
        </div>
     </section>
     <section class="page-sec">
-		<div class="page-inner">
+        <div class="page-inner">
             <img src="img/ecommerce/ecm-innertop.jpg" alt="ecommerce product page on desktop">
-		</div>
+        </div>
     </section>
     <section class="page-sec">
        <div class="page-inner">
@@ -49,7 +49,7 @@
     <section class="page-sec bg1 bg-b">
        <div class="page-inner">
              <h2 class="page-h2 ecm-h2">Product page Mockup</h2>
-            <img src="img/ecommerce/ecm-prd-mockup.png" alt="ecommerce-productpage-mockup" class="ecm-productmu-img">
+            <img src="img/ecommerce/ecm-prd-mockup.jpg" alt="ecommerce-productpage-mockup" class="ecm-productmu-img">
         </div>                
     </section>
     <section class="page-sec">
@@ -70,7 +70,7 @@
     <section class="page-sec">
        <div class="page-inner ecm-last">
             <h2 class="page-h2 ecm-h2">Homepage page Mockup</h2>
-            <img src="img/ecommerce/ecm-home-mockup.png" alt="ecommerce-homepage-mockup" class="ecm-homemu-img">
+            <img src="img/ecommerce/ecm-home-mockup.jpg" alt="ecommerce-homepage-mockup" class="ecm-homemu-img">
         </div>
     </section>
 </div>
