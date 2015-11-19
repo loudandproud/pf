@@ -322,13 +322,45 @@
 	overflow: hidden;
 }
 
+.ptf-hover-phone{
+    position: absolute;
+    display: inline-block;
+    padding-top: 23px;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    background-color: #f3409a;
+    border-radius: 50%;
+    left: 360px;
+    top: 9px;
+    z-index: 1;
+    text-shadow:none;
+}
+
+.ptf-hover-phone:after{
+	content: "";
+	position: absolute;
+    bottom: 1px;
+    left: 7px;
+    display: block;
+    width: 25px;
+    height: 13px;
+	background: rgb(243, 64, 154);
+    border-radius: 20px 0;
+    z-index: -1;
+	-ms-transform: rotate(170deg); /* IE 9 */
+   	-webkit-transform: rotate(170deg); /* Safari */
+    transform: rotate(170deg);
+}
+
 	.wzb-top{
 		position: relative;
 		float:left;
 		width: 535px;
 		height: 520px;
 		margin-right: 100px;
-		background-image:url(img/wazabibuzz/wzb-topsmartphone.png);
+		background-image:url(img/wazabibuzz/wzb-topsmartphone2.png);
 		background-repeat: no-repeat;
 		background-size:cover;
 		-webkit-background-size:cover;
@@ -348,11 +380,11 @@
 
 	.wzb-top-inner{
 		position: relative;
-		width: 252px;
+		width: 257px;
 		height: 447px;
 		overflow: hidden;
-		left: 85px;
-		top: 92px;
+		left: 82px;
+		top: 78px;
 	}
 
 

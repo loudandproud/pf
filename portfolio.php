@@ -68,7 +68,7 @@
                     <img src="img/reggiekeyswatson/rgk-top.jpg" alt="newspoprtal" class="rgk-topimg">
                 </div>
             </section>
-            <section class="portfolio-wzb tip cf" title="Hover <br>The <br>Phone" id="portfolio-wzb" data-background="http://toruinamoto.com/img/wazabibuzz/wzbtop-bg.jpg">
+            <section class="portfolio-wzb tip cf" id="portfolio-wzb" data-background="http://toruinamoto.com/img/wazabibuzz/wzbtop-bg.jpg">
                 <div class="cf left-wzb">
                     <h1 class="portfolio-h1">WaZabiBuzz</h1>
                     <h3 class="portfolio-h3">Mobile First Design, Wordpress Integration</h3>
@@ -78,9 +78,10 @@
                     </a>
                 </div>
                 <div class="wzb-imgwrp">
-                    <div class="wzb-top" id="offtip1">
-                        <div class="wzb-top-inner">    
-                            <img src="img/wazabibuzz/wzb-top.jpg" alt="wazabibuzz-topimage" class="wzb-topimg">
+                    <div class="wzb-top">
+                        <div class="ptf-hover-phone">Hover the phone!</div>
+                        <div class="wzb-top-inner">
+                            <img src="img/wazabibuzz/wzb-top2.jpg" alt="wazabibuzz-topimage" class="wzb-topimg">
                         </div>
                     </div>
                 </div>

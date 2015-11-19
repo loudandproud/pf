@@ -30,7 +30,7 @@
                         Talents gathered, and a brainstorming meeting was taken place.
                         After two intensive meetings, a strap line that our thoughts condensed emerged; <br> <i>&ldquo;Evolve together.&rdquo;</i></p>
                     </div>
-                    <img src="img/gazettemag/cardtest.png" class="gzt-cards">
+                    <img src="img/gazettemag/cards2.png" class="gzt-cards">
                 </div>
             </div>
         </section>

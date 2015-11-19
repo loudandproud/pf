@@ -31,18 +31,18 @@ $(function(){
 		navClick($navPanel);
 				
 		var panelId = $('.panel').attr('id');
-		//execute powertip which is following cursor.	
-		if(panelId!='home'||panelId!='about'||panelId!='contact'){
-			$('.tip').powerTip({
-				followMouse: true,
-				placement:'e'
-			});
-			$('#offtip1,#offtip2').hover(function(){
-					$.powerTip.hide();
-				},function(){
-					$.powerTip.show($('.tip'));
-			});
-		}
+		// //execute powertip which is following cursor.	
+		// if(panelId!='home'||panelId!='about'||panelId!='contact'){
+		// 	$('.tip').powerTip({
+		// 		followMouse: true,
+		// 		placement:'e'
+		// 	});
+		// 	$('#offtip1,#offtip2').hover(function(){
+		// 			$.powerTip.hide();
+		// 		},function(){
+		// 			$.powerTip.show($('.tip'));
+		// 	});
+		// }
 
 		if(panelId=='about'){
 		//about page background color change	

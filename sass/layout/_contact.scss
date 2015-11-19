@@ -36,11 +36,13 @@
 
 	.contact-input{
 		height:36px;
+		margin-bottom: 16px;
 	}
 
 
 	.contact-txtarea{
-		height:200px;	
+		height:200px;
+		margin-bottom:16px;
 	}
 
 	.contact-input:focus,
@@ -50,7 +52,8 @@
 
 	.contact-label{
 		display:block;
-		font-size: 18px;
+		font-size: 22px;
+		margin-bottom:-1px;
 	}
 
 
@@ -62,11 +65,11 @@
 .submit{
 	width:100px;
 	height: 40px;
-	margin-top: 16px;
+	line-height: 44px;
 	background-color:#FD6262;
 	border: none;
 	color: #fff;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 100;
 	font-family:$body-font-family;
 }	

@@ -26,7 +26,7 @@
             <img src="img/newsportal/login-front.jpg" alt="backend-login" class="nwp-img">
            </div>
         </section>    
-        <section class="page-sec nwp-backend-login">
+        <section class="page-sec bg1">
             <div class="page-inner">
                 <h2 class="page-h2 nwp-inner-h2">Backend Functionality</h2>
                 <p class="inner-p">Editors and Administrators can login backend with their username and password.</p>
@@ -38,25 +38,10 @@
                     <input type="text" disabled="disabled" placeholder="Your Password" class="nwp-backend-input">
                     <button class="nwp-backend-send">Login</button>
                 </div>
-            </div>
-        </section>    
-        <section class="page-sec bg1">
-            <div class="page-inner">
-                <p class="inner-p">Articles page on backend simply shows information.</p>
-                <img src="img/newsportal/articles-back.png" alt="backend-article-list" class="nwp-img">
-            </div>
-        </section>    
-        <section class="page-sec bg2">
-            <div class="page-inner">
-                <p class="inner-p">Article Edit page</p>
-            <img src="img/newsportal/articleedit.png" alt="article-edit-back" class="nwp-img">
-            </div>
-        </section>
-        <section class="page-sec bg2">
-            <div class="page-inner">
+                <p class="inner-p">Articles page on backend simply shows information. Editors can create, edit, delete posts.</p>
+                <img src="img/newsportal/articles-back.png" alt="backend-article-list" class="nwp-img nwp-articlesback-img">
                 <p class="inner-p">Administrators and Editors can manage sign-up customers</p>
                 <img src="img/newsportal/customers.png" alt="newsportal-customers" class="nwp-img">
-                
             </div>
         </section>
             <a href="http://toruinamoto.com/dmnprototype/index.php"class="viewsite vs-m" target="_blank">View Site</a>

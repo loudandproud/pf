@@ -16,12 +16,12 @@
     </section>
         <section class="page-sec">
            <div class="page-inner">
-				<img src="img/reggiekeyswatson/rgk-innertop.jpg" alt="reggie key watson on desktop">
+                <img src="img/reggiekeyswatson/rgk-innertop.jpg" alt="reggie key watson on desktop">
            </div>
         </section>
     
     <section class="page-sec">
-        <div class="page-inner ubc-inner-rc cf">
+        <div class="page-inner rgk-inner-rc cf">
             <div class="ubc-inner-left">    
                 <h2 class="page-h2 rgk-h2-list">Reggie Key's Profile</h2>
                 <ul class="disc-listred rgk-listred">
@@ -82,4 +82,4 @@
         </div>
     </section>
     <a href="http://toruinamoto.com/rkwprototype/index.php"class="viewsite vs-m" target="_blank">View Site</a>
-</div> 
+</div>

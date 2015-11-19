@@ -80,7 +80,7 @@
         <div class="page-inner">
             <h2 class="page-h2 ubc-h2">Mobile Layout</h2>
             <p class="ubc-sps-p">Please hover the devices to see the whole page.</p>
-            <div class="ubc-mobile tip cf" title="Hover <br>The <br>Devices" >
+            <div class="ubc-mobile tip cf">
                 <div class="page-smartphone">
                     <div class="ubc-hover-phone">Hover the phone!</div>
                     <div class="page-smartphone-inner">

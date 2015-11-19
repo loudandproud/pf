@@ -15,7 +15,7 @@
     </div>
     </section>
     <section class="page-sec">
-       <div class="page-inner">
+       <div class="page-inner-3devices">
             <img src="img/wazabibuzz/wzb-innertop2.jpg" alt="wazabibuzz-inner-topimage">
         </div>
     </section>
@@ -31,13 +31,14 @@
        <img src="img/wazabibuzz/wzb-wordpress.jpg" alt="waabibuzz-wordpress">
        </div>
     </section>
-    <section class="page-sec tip bg2" title="Hover <br>The <br>Display">
+    <section class="page-sec bg2">
        <div class="page-inner">
         <h2 class="page-h2">Navigation for mobile device</h2>
-            <p class="inner-p wzb-p">When user touch the navigation button, the menu slides in from the left side. </p>
+            <p class="inner-p wzb-mobnav-p">When user touch the navigation button, the menu slides in from the left side. </p>
             <div class="page-smartphone wzb-mobnav">
-                <div class="wzb-smartphone-inner">    
-                    <img src="img/wazabibuzz/wzb-innersph-home.jpg" alt="inner-smartphone" class="inner-wzb-sphimg" id="offtip1">
+                <div class="wzb-hover-phone">Hover the phone!</div>
+                <div class="wzb-smartphone-inner"> 
+                    <img src="img/wazabibuzz/wzb-innersph-home.jpg" alt="inner-smartphone" class="inner-wzb-sphimg">
                 </div>
             </div>
         </div>
@@ -45,21 +46,23 @@
     <section class="page-sec bg1 bg-b">
        <div class="page-inner">
             <h2 class="page-h2">Inner page design for Desktop</h2>
-            <p class="inner-p wzb-p">The website aims to have its content shared by users. It focuses on two social media websites, Facebook and Twitter, of which share buttons are placed on the right top section and the middle of page. </p>
+            <p class="inner-p">The website aims to have its content shared by users. It focuses on two social media websites, Facebook and Twitter, of which share buttons are placed on the right top section and the middle of page. </p>
            <img src="img/wazabibuzz/wzb-inner-pagepc.jpg" alt="wazabibuzz-inner-page-pc" class="inner-wzb-pagepc">
        </div>
     </section>    
-    <section class="page-sec tip">
+    <section class="page-sec">
        <div class="page-inner">
         <h2 class="page-h2">Inner page design for mobile</h2>
-        <p class="inner-p wzb-p">Please hover the devices to see the whole page.</p>
+        <p class="inner-p">Please hover the devices to see the whole page.</p>
             <div class="wzb-page-mobile cf">
                 <div class="page-smartphone">
+                    <div class="wzb-hover-phone">Hover the phone!</div>
                     <div class="wzb-smartphone-inner">    
-                        <img src="img/wazabibuzz/wzb-inner-pagesmp.jpg" alt="wazabibuzz-inner-page-smartphone" class="wzb-page-smp" id="offtip2">
+                        <img src="img/wazabibuzz/wzb-inner-pagesmp.jpg" alt="wazabibuzz-inner-page-smartphone" class="wzb-page-smp">
                     </div>
                 </div>
                 <div class="page-tablet">
+                    <div class="wzb-hover-tablet">Hover the tablet!</div>
                     <div class="page-tablet-inner">    
                         <img src="img/wazabibuzz/wzb-inner-pagetbl.jpg" alt="wazabibuzz-inner-page-tablet" class="wzb-page-tbl">
                     </div>

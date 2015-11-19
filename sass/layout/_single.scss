@@ -94,7 +94,7 @@
 	
 	.description-p{
 		width: 1000px;
-		margin-bottom:30px;
+		margin-bottom:50px;
 	}
 
 	.page-inner > .tools-p{
@@ -151,9 +151,8 @@
 		padding: 5px 8px 0;
 	}
 	
-	
 .inner-p{
-	margin:30px 0;
+	margin:30px 0 90px;
 }
 
 .page-smartphone{
@@ -275,7 +274,7 @@
 
 .gzt-b3{
 	position:relative;
-	background-color:#0B2224;
+	// background-color:#0B2224;
 }
 
 .gzt-h1{
@@ -309,18 +308,57 @@
 	@include body-font;
 }
 
+.gzt-adphone{
+	float:left;
+	width:200px;
+	@include body-font;
+	color:#fff;
+}
+
+.gzt-adtablet{
+	float:left;
+	width:370px;
+	color:#fff;
+	padding-left:0;
+	@include body-font;
+}
+
+.gzt-adtablet-h{
+	float:left;
+	width:510px;
+	color:#fff;
+	padding-left:0;
+	@include body-font;
+
+}
+
+.gzt-adpc{
+	float:left;
+	width:300px;
+	color:#fff;
+	padding-left:0;
+	@include body-font;
+}
+
+.gzt-ad-p{
+	@include body-font;
+}
+
+.gzt-adclicks{
+	color:#464646;
+}
+
 .gzt-h2{	
 	margin-bottom:70px;
 }
 
 .gzt-cards{
 	position:absolute;
-	top:-10px;
-	right: -50px;
-	height:650px;
+	top:-70px;
+	right: 0;
+	height:815px;
 	z-index:1;
 	max-width:none;
-	opacity:0.6;
 }
 
 .gzt-homewf{
@@ -328,7 +366,6 @@
 }
 
 .gzt-list-sp{
-	width:260px;
 }
 
 
@@ -549,7 +586,8 @@
 }
 
 
-.ubc-hover-phone{
+.ubc-hover-phone,
+.wzb-hover-phone{
     position: absolute;
     display: inline-block;
     padding-top: 23px;
@@ -565,7 +603,8 @@
     z-index: 1;
 }
 
-.ubc-hover-phone:after{
+.ubc-hover-phone:after,
+.wzb-hover-phone:after{
 	content: "";
 	position: absolute;
     bottom: -8px;
@@ -579,7 +618,8 @@
     z-index: -1;
 }
 
-.ubc-hover-tablet{
+.ubc-hover-tablet,
+.wzb-hover-tablet{
     position: absolute;
     display: inline-block;
     padding-top: 26px;
@@ -595,7 +635,8 @@
     z-index: 1;
 }
 
-.ubc-hover-tablet:after{
+.ubc-hover-tablet:after,
+.wzb-hover-tablet:after{
 	content: "";
 	position: absolute;
     bottom: -8px;
@@ -688,54 +729,60 @@
 		line-height:54px;
 	}
 
-		.nwp-img{
-			border:1px solid #e7e7e7;
-		}
 
-		.nwp-backend-login{
-			height: 500px;
-		}
+.nwp-img{
+	border:1px solid #e7e7e7;
+}
 
-		.nwp-backend-loginform{
-			width: 400px;
-			margin: 0 auto;
-		}
+// .nwp-backend-login{
+// 	height: 500px;
+// }
 
-		.nwp-backend-loginform > p{
-			font-size: 30px;
-		}
+.nwp-backend-loginform{
+	width: 400px;
+	margin: 0 auto 180px;
+}
 
-		.nwp-backend-loginform > label{
-			font-size: 18px;
-			margin: 0;
-		}
+.nwp-backend-loginform > p{
+	font-size: 30px;
+}
 
-		.nwp-backend-input{
-			width: 100%;
-			height: 36px;
-			margin-bottom: 20px;
-			font-size: 16px;
-			border: 1px solid #ccc;
-			padding:0.3rem;
-		}
+.nwp-backend-loginform > label{
+	font-size: 18px;
+	margin: 0;
+}
 
-		.nwp-backend-send{
-			width: 100px;
-			height: 40px;
-			font-size: 14px;
-			background-color: #41A837;
-			color: #fff;
-			border: none;
-		}
+.nwp-backend-input{
+	width: 100%;
+	height: 36px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding:0.3rem;
+}
 
-		.nwp-backend-input:focus,
-		.nwp-backend-send:focus{
-			outline: none;
-		}
+.nwp-backend-send{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	background-color: #41A837;
+	color: #fff;
+	border: none;
+}
+
+.nwp-backend-input:focus,
+.nwp-backend-send:focus{
+	outline: none;
+}
 		
 	.vs-m{
 		margin:80px auto 140px;
 	}
+
+.nwp-articlesback-img{
+	margin-bottom:180px;
+}
+
 
 /*******************************
 
@@ -748,7 +795,7 @@
 }
 
 .ecm-h2{
-	margin-bottom:5px;
+	margin-bottom:10px;
 }
 
 .ecm-wfpd-wrap{
@@ -772,7 +819,7 @@
 	}
 	
 .ecm-wfpd{
-	padding:60px;
+	padding:0 140px 100px;
 }
 
 .ecm-wf-home{
@@ -801,6 +848,10 @@
 
 .rgk-h2-list{
 	margin-bottom:4px;	
+}
+
+.rgk-inner-rc{
+	padding-top:0;
 }
 
 .disclaimer-p{
@@ -841,15 +892,8 @@
 		padding:30px 60px 60px;
 	}
 	
-	// .wzb-p{
-	// 	margin:20px 0;
-	// 	font-size: 18px;
-	// 	text-align: center;
-	// 	line-height:28px;
-	// }
-	
-.wzb-p{
-	margin-bottom:90px;
+.wzb-mobnav-p{
+	margin-bottom:140px;
 }
 
 .wzb-mobnav{
@@ -858,11 +902,20 @@
 	margin:0 auto;
 	// background-image:url(img/smartphone2.jpg)
 }
-	
+
+.wzb-smartphone-inner{
+	position: relative;
+    width: 219px;
+    height: 386px;
+    overflow: hidden;
+    left: 47px;
+    top: 62px;
+}
+
 .inner-wzb-sphimg{
 	position: relative;
 	max-width:none;
-	right:137px;
+	right:140px;
 	-webkit-transition: all 0.5s ease;
 	   -moz-transition: all 0.5s ease;
 		-ms-transition: all 0.5s ease;
@@ -926,14 +979,7 @@
 // 	border-top:1px solid #ddd;
 // }
 
-.wzb-smartphone-inner{
-	position: relative;
-	width: 217px;	
-	height: 387px;
-	overflow: hidden;
-	left: 48px;
-	top: 63px;
-}
+
 
 /*******************************
 

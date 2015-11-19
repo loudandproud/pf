@@ -7,7 +7,7 @@
         </a>
     <section class="page-sec cf">
        <div class="page-inner-top">
-            <h1 class="page-h1 ecm-h1">SNOW FREAK</h1>
+            <h1 class="page-h1 ecm-h1">Snow Freak</h1>
             <h3 class="page-headdescription">User Interface Design</h3>
             <p class="description-p">Snow Freak was an e-commerce interface design project. Students were assigned to design two pages of whatever product they chose for Home&amp;Product page.
              I chose snow-gear as a theme and researched over 20 snow-gear <br> e-commerce websites, and found some common points for successful e-commerce website design.</p>
@@ -16,7 +16,7 @@
     </section>
     <section class="page-sec">
         <div class="page-inner">
-            <img src="img/ecommerce/ecm-innertop.jpg" alt="ecommerce product page on desktop">
+            <img src="img/ecommerce/ecm-innertop2.jpg" alt="ecommerce product page on desktop">
         </div>
     </section>
     <section class="page-sec">
@@ -41,8 +41,8 @@
             </div>
        </div>
     </section>
-    <section class="page-sec bg2">
-       <div class="page-inner ecm-wfpd">
+    <section class="page-sec">
+       <div class="ecm-wfpd">
                 <img src="img/ecommerce/ecm-prd-wf.png" alt="ecommerce-wireframe" class="ecm-productwf-img">
        </div>
     </section>
