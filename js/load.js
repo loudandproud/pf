@@ -12,7 +12,7 @@ $(function(){
 	//put navs in footer to object	
 		var $navFooter = $('#navbar-ul').find('.nav');
 		navClick($navFooter);
-	//execute loadFunc to put navs in panael
+	//execute loadFunc to put navs in panel
 		loadFunc();
 
 	//click action to move to next page
@@ -30,19 +30,8 @@ $(function(){
 		var $navPanel = $('.panel').find('.nav');
 		navClick($navPanel);
 				
-		var panelId = $('.panel').attr('id');
-		// //execute powertip which is following cursor.	
-		// if(panelId!='home'||panelId!='about'||panelId!='contact'){
-		// 	$('.tip').powerTip({
-		// 		followMouse: true,
-		// 		placement:'e'
-		// 	});
-		// 	$('#offtip1,#offtip2').hover(function(){
-		// 			$.powerTip.hide();
-		// 		},function(){
-		// 			$.powerTip.show($('.tip'));
-		// 	});
-		// }
+		var panelId = $('.panel').attr('id'),
+			scrollHeight;//Store scroll height
 
 		if(panelId=='about'){
 		//about page background color change	
@@ -56,7 +45,6 @@ $(function(){
 				}]
 			});
 		//about page seemywork fadein/fadeout
-			var scrollHeight,
 				leadHeight = $('.about-lead-sec').innerHeight(),
 				gotoHeight = $('#goto').innerHeight(),
 				gotoTop = $('#goto').css('bottom'),
@@ -73,41 +61,49 @@ $(function(){
 						$('#goto-pf-img').attr('src','img/arrow-rw.png')					
 					}
 				});
-		}//about page function
-		
-		if(panelId=='portfolio'){
-			var scrollHeight,
-				prtUbc = $('#portfolio-ubc').innerHeight(),
-				prtNwp = $('#portfolio-nwp').innerHeight()+prtUbc,
-				prtEcm = $('#portfolio-ecm').innerHeight()+prtNwp,
-				prtRgk = $('#portfolio-rgk').innerHeight()+prtEcm,
-				prtWzb = $('#portfolio-wzb').innerHeight()+prtRgk,
-				prtEas = $('#portfolio-eas').innerHeight()+prtWzb,
-				gotoH=$('#goto').innerHeight(),
-				gotoTop=$('#goto').css('top'),
-				gotoTop = parseInt(gotoTop);
+		}//about page function	
+
+		//Gazette page function
+		if(panelId=='gazettemag'){
+			var	gztConcept = $('#gzt-concept').offset().top,
+				gztAds = $('#gzt-ads').offset().top,
+				gztCirc = $('#gzt-circ').offset().top;
+
+				// console.log($('#gzt-concept').offset().top);
+
+			$(window).on('scroll',function(){
+				scrollHeight = $(this).scrollTop();
 				
-				$(window).on('scroll',function(){
-					scrollHeight = $(this).scrollTop()+gotoH+gotoTop;
-						if(
-							prtNwp<scrollHeight&scrollHeight<prtEcm||
-							prtRgk<scrollHeight&scrollHeight<prtWzb
-						){
-							$('#goto-contact-img').attr('src','img/arrow-r.png');
-							$('#goto').css('background-image','url(img/contactme.png)');
-						}
-						
-						if(
-							prtUbc<scrollHeight&scrollHeight<prtNwp||
-							prtEcm<scrollHeight&scrollHeight<prtRgk||
-							prtWzb<scrollHeight&scrollHeight<prtEas
-						){
-							$('#goto-contact-img').attr('src','img/arrow-rw.png');
-							$('#goto').css('background-image','url(img/contactme-w.png)');
-						} 
-				});
-			}//portfolio page function
-	
+				if(gztConcept < scrollHeight && scrollHeight < gztAds){
+					$('#goto').css('background-image','url(img/contactme-w.png)');
+					$('#goto-contact-img').attr('src','img/arrow-rw.png');
+					$('#backto-pf-img').attr('src','img/arrow-lw.png');
+				}else{
+					$('#goto').css('background-image','url(img/contactme.png)');
+					$('#goto-contact-img').attr('src','img/arrow-r.png');
+					$('#backto-pf-img').attr('src','img/arrow-l.png');				
+				}
+
+				if(gztAds < scrollHeight && scrollHeight < gztCirc){
+					$('#gzt-ads').addClass('active');
+				}else{
+					$('#gzt-ads').removeClass('active');
+				}
+			});
+			
+			$('body').bind('mousewheel DOMMouseScroll click', function(event){
+				if($('#gzt-ads').hasClass('active')){
+					$('.gzt-adphone-inner').addClass("active");
+					$('.gzt-adtablet-inner').addClass("active");
+					$('.gzt-adtablet-h-inner').addClass("active");
+				}else{
+					$('.gzt-adphone-inner').removeClass("active");
+					$('.gzt-adtablet-inner').removeClass("active");
+					$('.gzt-adtablet-h-inner').removeClass("active");
+				}
+			});
+		}
+
 		//contact form
 		if(panelId=='contact'){
 			// Get the form.

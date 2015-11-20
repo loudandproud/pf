@@ -8,6 +8,7 @@
 	left:20px;
 	top: 25px;
 	font-size: 0;
+	z-index:3;
 }
 
 .goto-contact{
@@ -274,7 +275,7 @@
 
 .gzt-b3{
 	position:relative;
-	// background-color:#0B2224;
+	background-color:#F4F6FF;
 }
 
 .gzt-h1{
@@ -308,46 +309,6 @@
 	@include body-font;
 }
 
-.gzt-adphone{
-	float:left;
-	width:200px;
-	@include body-font;
-	color:#fff;
-}
-
-.gzt-adtablet{
-	float:left;
-	width:370px;
-	color:#fff;
-	padding-left:0;
-	@include body-font;
-}
-
-.gzt-adtablet-h{
-	float:left;
-	width:510px;
-	color:#fff;
-	padding-left:0;
-	@include body-font;
-
-}
-
-.gzt-adpc{
-	float:left;
-	width:300px;
-	color:#fff;
-	padding-left:0;
-	@include body-font;
-}
-
-.gzt-ad-p{
-	@include body-font;
-}
-
-.gzt-adclicks{
-	color:#464646;
-}
-
 .gzt-h2{	
 	margin-bottom:70px;
 }
@@ -361,10 +322,6 @@
 	max-width:none;
 }
 
-.gzt-homewf{
-	margin-bottom: 30px;
-}
-
 .gzt-list-sp{
 }
 
@@ -375,20 +332,6 @@
 	padding-left:80px;
 	@include body-font;
 }
-
-.gzt-iphone6{
-	position:relative;
-	float:left;
-	width: 340px;
-	height: 606px;
-	margin-right: 60px;
-	margin-left:100px;
-	background-image:url(img/iphone6.jpg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-}
-
 
 .gzt-hover-device{
     position: absolute;
@@ -421,6 +364,18 @@
 }
 
 
+.gzt-iphone6{
+	position:relative;
+	float:left;
+	width: 340px;
+	height: 606px;
+	margin-right: 60px;
+	margin-left:100px;
+	background-image:url(img/iphone6.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
 
 	.gzt-iphone6:after{
 		content: "";
@@ -442,18 +397,163 @@
 		top: 67px;
 	}
 
+
+.gzt-adclicks{
+	margin-bottom:90px;
+	color:#464646;
+}
+
+.gzt-homewf{
+	width:880px;
+	margin:0 auto 100px;
+}
+
+.gzt-adpc{
+	float:left;
+	width:300px;
+	color:#fff;
+	padding-left:0;
+	@include body-font;
+}
+
+.gzt-ad-p{
+	@include body-font;
+}
+
+
+.gzt-adphone{
+	position:relative;
+	float:left;
+	width:252px;
+	height: 492px;
+	@include body-font;
+	color:#fff;
+	background-image:url(img/gazettemag/ad-flatiphone.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+
+.gzt-adphone1{
+	margin-right:100px;
+}
+
+	.gzt-adphone-inner{
+		position: relative;
+		width: 194px;
+		height: 345px;
+		overflow: hidden;
+		left: 40px;
+		top: 457px;
+	}
+
+	.gzt-adphone-inner.active .gzt-adphone-img{
+		margin-top:-930px;
+	}
+
+	.gzt-adphone-inner.active .gzt-adphone2-img{
+		margin-top:-1430px;
+	}
+
+	.gzt-adphone-img,
+	.gzt-adphone2-img{
+		-webkit-transition: margin-top 6s ease-in-out;
+		   -moz-transition: margin-top 6s ease-in-out;
+			-ms-transition: margin-top 6s ease-in-out;
+			 -o-transition: margin-top 6s ease-in-out;
+				transition: margin-top 6s ease-in-out;
+	}
+
+.gzt-adtablet{
+	position:relative;
+	float:left;
+	width:430px;
+	height: 559px;
+	color:#fff;
+	padding-left:0;
+	@include body-font;
+	background-image:url(img/gazettemag/ad-flattablet.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+
+
+	.gzt-adtablet-inner{
+		position: relative;
+		width: 364px;
+		height: 482px;
+		overflow: hidden;
+		left: 31px;
+		top: 33px;
+	}
+
+
+	.gzt-adtablet-inner.active .gzt-adtablet-img{
+		margin-top:-1030px;
+	}
+
+
+	.gzt-adtablet-img{
+		-webkit-transition: margin-top 6s ease-in-out;
+		   -moz-transition: margin-top 6s ease-in-out;
+			-ms-transition: margin-top 6s ease-in-out;
+			 -o-transition: margin-top 6s ease-in-out;
+				transition: margin-top 6s ease-in-out;
+	}
+
+
+.gzt-adtablet-h{
+	position:relative;
+	float:left;
+	width:559px;
+	height: 430px;
+	margin-right:100px;
+	@include body-font;
+	color:#fff;
+	background-image:url(img/gazettemag/ad-flattablet-h.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+
+
+	.gzt-adtablet-h-inner{
+		position: relative;
+		width: 485px;
+		height: 364px;
+		overflow: hidden;
+		left: 35px;
+		top: 33px;
+	}
+
+
+	.gzt-adtablet-h-inner.active .gzt-adtablet-h-img{
+		margin-top:-700px;
+	}
+
+
+	.gzt-adtablet-h-img{
+		-webkit-transition: margin-top 6s ease-in-out;
+		   -moz-transition: margin-top 6s ease-in-out;
+			-ms-transition: margin-top 6s ease-in-out;
+			 -o-transition: margin-top 6s ease-in-out;
+				transition: margin-top 6s ease-in-out;
+	}
+
 .gzt-sp-post{
 	position: relative;
-	-webkit-transition: all 10s ease;
-	   -moz-transition: all 10s ease;
-		-ms-transition: all 10s ease;
-		 -o-transition: all 10s ease;
-			transition: all 10s ease;
+	-webkit-transition: margin-top 8s ease-in-out;
+	   -moz-transition: margin-top 8s ease-in-out;
+		-ms-transition: margin-top 8s ease-in-out;
+		 -o-transition: margin-top 8s ease-in-out;
+			transition: margin-top 8s ease-in-out;
 }
 
 .gzt-sp-post:hover{
 	margin-top: -1930px;
 }
+
 
 .gzt-tstmnl-left{
 	float:left;
