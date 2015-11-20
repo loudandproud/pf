@@ -54,8 +54,8 @@
                     <h2 class="page-h2 gzt-h2">Doubled ad-clicks</h2>
                     <p class="gzt-ad-p">Banners are not only ads, it also gives the layout rhythm. The ad revenue is a key engines of medium business. Advertising should be, yet it matches the design. </p>
                 </div>
-                <div class="cf gzt-homewf">    
-                    <div class="gzt-adphone">
+                <div class="cf gzt-homewf">
+                    <div class="gzt-adphone gzt-adphone1">
                         <div class="gzt-adphone-inner">    
                             <img src="img/gazettemag/sp-list2.jpg" alt="gazettemag-smartphone-list" class="gzt-adphone-img">
                         </div>
@@ -72,9 +72,9 @@
                             <img src="img/gazettemag/pc-post2.jpg" alt="gazettemag-desktop-post" class="gzt-adtablet-h-img">
                         </div>
                     </div>
-                    <div class="gzt-adphone">
+                    <div class="gzt-adphone gzt-adphone2">
                         <div class="gzt-adphone-inner">    
-                            <img src="img/gazettemag/sp-list2.jpg" alt="gazettemag-smartphone-list" class="gzt-adphone-img">
+                            <img src="img/gazettemag/sp-home2.jpg" alt="gazettemag-smartphone-list" class="gzt-adphone2-img">
                         </div>
                     </div>
                 </div>

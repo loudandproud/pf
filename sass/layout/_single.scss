@@ -440,15 +440,15 @@
 
 	.gzt-adphone-inner{
 		position: relative;
-		width: 194px;
-		height: 345px;
+		width: 200px;
+		height: 355px;
 		overflow: hidden;
-		left: 40px;
-		top: 457px;
+		left: 37px;
+		top: 57px;
 	}
 
 	.gzt-adphone-inner.active .gzt-adphone-img{
-		margin-top:-930px;
+		margin-top:-966px;
 	}
 
 	.gzt-adphone-inner.active .gzt-adphone2-img{
@@ -467,7 +467,7 @@
 .gzt-adtablet{
 	position:relative;
 	float:left;
-	width:430px;
+	width:440px;
 	height: 559px;
 	color:#fff;
 	padding-left:0;
@@ -481,11 +481,11 @@
 
 	.gzt-adtablet-inner{
 		position: relative;
-		width: 364px;
-		height: 482px;
+		width: 340px;
+		height: 451px;
 		overflow: hidden;
-		left: 31px;
-		top: 33px;
+		left: 67px;
+		top: 37px;
 	}
 
 
@@ -507,8 +507,8 @@
 	position:relative;
 	float:left;
 	width:559px;
-	height: 430px;
-	margin-right:100px;
+	height: 440px;
+	margin-right:60px;
 	@include body-font;
 	color:#fff;
 	background-image:url(img/gazettemag/ad-flattablet-h.jpg);
@@ -520,11 +520,11 @@
 
 	.gzt-adtablet-h-inner{
 		position: relative;
-		width: 485px;
-		height: 364px;
+		width: 452px;
+		height: 340px;
 		overflow: hidden;
-		left: 35px;
-		top: 33px;
+		left: 71px;
+		top: 34px;
 	}
 
 
