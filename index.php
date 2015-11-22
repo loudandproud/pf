@@ -1,10 +1,10 @@
 <?php
-/*require_once 'Mobile_Detect.php';
-$detect = new Mobile_Detect;
-if($detect->isMobile()){
-    header('location:http://mobile.toruinamoto.com', true, 301);
-}else{
-*/?>
+// require_once 'Mobile_Detect.php';
+// $detect = new Mobile_Detect;
+// if($detect->isMobile()){
+//     header('location:http://mobile.toruinamoto.com', true, 301);
+// }else{
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,16 +16,16 @@ if($detect->isMobile()){
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="shortcut icon" href="img/favicon.png">
+<link rel="shortcut icon" href="img/favicon.ico?v=1" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <script src="js/lib/jquery-1.11.1.min.js"></script>
-<script src="js/lib/jquery.powertip.min.js"></script>
 <script src="js/lib/jquery.mousewheel.js"></script>
 <script src="js/lib/jquery.colorscroll.js"></script>
 <script type="text/javascript" src="js/load.js"></script>
 </head>
  
 <body>
-<div id="ajaxloader">Loading</div>
+<div id="ajaxloader"><img src="img/logo.svg" alt="loading" class="ajaxloader-img"></div>
 <div id="pageContent" class="cf">
 	<div id="home" class="panel" data-number="1">
     	<div class="home">
@@ -57,5 +57,5 @@ if($detect->isMobile()){
 </script>
 </html>
 <?php
-/*}
-*/?>
+// }
+?>

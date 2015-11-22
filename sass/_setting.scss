@@ -14,13 +14,14 @@ $portfolio-font-family:"NeuzeitGro", Roboto2014, "Open Sans", Verdana, sans-seri
 
 	@font-face {
 		font-family:Candida;
-		src:url(fonts/CandidaStd-Roman.otf);
+		src:url('fonts/CandidaStd-Roman.otf'),url('fonts/CandidaStd-Roman.ttf') format('truetype');
+
 	}
 
 	@font-face {
 		font-family:Candida;
 		font-weight:800;
-		src:url(fonts/CandidaStd-Bold.otf);
+		src:url('fonts/CandidaStd-Bold.otf'),url('fonts/CandidaStd-Bold.ttf') format('truetype');
 	}
 
 	@font-face {

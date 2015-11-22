@@ -43,7 +43,7 @@
             </ul>
         </div>
     </section>    
-        <section class="panel-sec about-bg1">
+        <section class="panel-sec about-bg1" id="about-bottom">
             <div class="panel-profile cf">
                 <div class="about-profile">
                     <h3 class="about-h3">A little about myself</h3>

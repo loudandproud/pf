@@ -18,7 +18,7 @@
 	right:50%;
 	margin-right:-560px;
 	top: 25px;
-	font-size: 0;
+	font-siz: 0;
 	background-image:url(img/contactme.png);
 	background-repeat:no-repeat;
 	z-index:3;
@@ -78,14 +78,12 @@
 	line-height:42px;
 }
 
-
 .page-headdescription{
 	font-size:18px;
 	padding-top:10px;
 	margin-bottom:60px;
 	color:#747474;
 }
-
 
 .page-inner > p,
 .page-inner-top > p{
@@ -286,7 +284,6 @@
 .gzt-cards-sec{
 	position: relative;
 	z-index:2;
-	//float:left;
 	width:46%;
 	color:#fff;
 	@include body-font;
@@ -299,7 +296,6 @@
 	@include body-font;
 	color:#fff;
 }
-
 
 .gzt-right{
 	float:right;
@@ -315,16 +311,13 @@
 
 .gzt-cards{
 	position:absolute;
-	top:-70px;
-	right: 0;
-	height:815px;
+	top:-85px;
+	right: 50%;
+	margin-right:-600px;
+	height:795px;
 	z-index:1;
 	max-width:none;
 }
-
-.gzt-list-sp{
-}
-
 
 .gzt-circulation{
 	float:right;
@@ -403,10 +396,16 @@
 	color:#464646;
 }
 
-.gzt-homewf{
+.gzt-ads1{
 	width:880px;
 	margin:0 auto 100px;
 }
+
+.gzt-ads2{
+	width:920px;
+	margin:0 auto 100px;
+}
+
 
 .gzt-adpc{
 	float:left;
@@ -419,7 +418,6 @@
 .gzt-ad-p{
 	@include body-font;
 }
-
 
 .gzt-adphone{
 	position:relative;
@@ -490,7 +488,7 @@
 
 
 	.gzt-adtablet-inner.active .gzt-adtablet-img{
-		margin-top:-1030px;
+		margin-top:-964px;
 	}
 
 
@@ -508,7 +506,7 @@
 	float:left;
 	width:559px;
 	height: 440px;
-	margin-right:60px;
+	margin-right:100px;
 	@include body-font;
 	color:#fff;
 	background-image:url(img/gazettemag/ad-flattablet-h.jpg);
@@ -516,7 +514,6 @@
 	background-size:cover;
 	-webkit-background-size:cover;
 }
-
 
 	.gzt-adtablet-h-inner{
 		position: relative;
@@ -527,11 +524,9 @@
 		top: 34px;
 	}
 
-
 	.gzt-adtablet-h-inner.active .gzt-adtablet-h-img{
 		margin-top:-700px;
 	}
-
 
 	.gzt-adtablet-h-img{
 		-webkit-transition: margin-top 6s ease-in-out;
@@ -918,9 +913,9 @@
 		border:1px solid #e7e7e7;
 	}
 	
-.ecm-wfpd{
-	padding:0 140px 100px;
-}
+// .ecm-wfpd{
+// 	padding:0 140px 100px;
+// }
 
 .ecm-wf-home{
 	float:left;
@@ -947,7 +942,7 @@
 }
 
 .rgk-h2-list{
-	margin-bottom:4px;	
+	margin-bottom:10px;	
 }
 
 .rgk-inner-rc{

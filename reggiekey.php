@@ -11,7 +11,7 @@
             <h3 class="page-headdescription">Branding Case Study</h3>
             <p class="description-p">Reggie Key Watson is a professional jazz piano player and we were assigned to make his website to build his personal brand.</p>
             <p class="disclaimer-p">Disclaimer : I used Jemie Foxx images as Reggie himself, and other artists images. The images are used only for educational purpose on school project. The copygihts of all the images attribute original image's creators.</p>
-            <p class="tools-p">TOOLS: HTML5, CSS3, jQuery, PHP, MySQL, Photoshop, Illustrator</p>
+            <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, PHP, MySQL, Photoshop, Illustrator</p>
         </div>
     </section>
         <section class="page-sec">

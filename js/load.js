@@ -4,7 +4,7 @@ $(function(){
 		$currentPanel,
 		currentNumber,
 		lasturl;
-		
+
 	//put current panel data
 		$currentPanel = $('#pageContent').children('.panel');
 		currentNumber = $currentPanel.data('number');
@@ -15,13 +15,20 @@ $(function(){
 	//execute loadFunc to put navs in panel
 		loadFunc();
 
+	// //test onhashchange
+	// window.onhashchange = hashChange;
+	// function hashChange(){
+	// 	var currentHash = location.hash;
+	// 	console.log("hash cahnge. current hash is "+currentHash);
+	// }	
+
 	//click action to move to next page
 	function navClick($nav){
 		$nav.click(function (e){
 				$(window).off('scroll');//when link is clicked, seemywork scroll function stops.
 				$this = $(this);
 				checkURL(this.hash);
-				e.preventDefault();
+				// e.preventDefault();
 		});
 	}
 	
@@ -45,18 +52,15 @@ $(function(){
 				}]
 			});
 		//about page seemywork fadein/fadeout
-				leadHeight = $('.about-lead-sec').innerHeight(),
-				gotoHeight = $('#goto').innerHeight(),
-				gotoTop = $('#goto').css('bottom'),
+			var	gotoTop = $('#goto').css('bottom'),
 				gotoTop = parseInt(gotoTop),
-				trsPoint = leadHeight - gotoHeight - gotoTop;
-				console.log(gotoTop);
+				abtbottomTop = $('#about-bottom').offset().top;
 				$(window).on('scroll',function(){
-					scrollHeight = $(this).scrollTop();					
-					if(trsPoint < scrollHeight){
+					scrollHeight = $(this).scrollTop() + gotoTop;
+					if(abtbottomTop < scrollHeight){
 						$('#goto').css('background-image','url(img/about/seemywork.png)');
 						$('#goto-pf-img').attr('src','img/arrow-r.png')					
-					}else if(scrollHeight < trsPoint){
+					}else if(scrollHeight < abtbottomTop){
 						$('#goto').css('background-image','url(img/about/seemywork-w.png)');
 						$('#goto-pf-img').attr('src','img/arrow-rw.png')					
 					}
@@ -209,57 +213,62 @@ $(function(){
 				$('#goto').css('position','absolute');
 				
 					if(currentNumber < thisNumber){
-						$("body,html").animate({scrollTop:0},500);
 						$currentPanel
 							.stop()
 							.animate({
 										left:-(currentWidth)
 									},500);
+						$("body,html").animate({scrollTop:0},500);	
 						$thisPanel.css({
 							opacity:1,
 							left: thisWidth
 						})
-						.stop()
-						.animate({
-							left:0,
-							},{
-							duration:500,
-							complete:function(){
-									$('#pageContent').children().not($thisPanel).remove();
-									$currentPanel = $thisPanel;
-									currentNumber = thisNumber;
-									$('#backto').css('position','fixed');
-									$('#goto').css('position','fixed');
-									loadFunc();
-									$(window).off('load');
-								}
-							});
+							.stop()
+							.animate({
+								left:0,
+								// scrollTop:0,
+								},{
+								duration:500,
+								complete:function(){
+										// window.scrollTo(0,0);
+										$('#pageContent').children().not($thisPanel).remove();
+										$currentPanel = $thisPanel;
+										currentNumber = thisNumber;
+										$('#backto').css('position','fixed');
+										$('#goto').css('position','fixed');
+										loadFunc();
+										$(window).off('load');
+									}
+								});
 					}else if(thisNumber < currentNumber){
-						$("body,html").animate({scrollTop:0},500);
 						$currentPanel
 							.stop()
 							.animate({
 									left : currentWidth
 								}, 500);
+						
+						$("body,html").animate({scrollTop:0},500);	
 						$thisPanel.css({
 							opacity:1,
 							left:-(thisWidth)
 						})
-						.stop()
-						.animate({
-							left:0,
-							},{
-							duration:500,
-							complete:function(){
-									$('#pageContent').children().not($thisPanel).remove();
-									$currentPanel = $thisPanel;
-									currentNumber = thisNumber;
-									$('#backto').css('position','fixed');
-									$('#goto').css('position','fixed');
-									loadFunc();
-									$(window).off('load');
-								}
-							});
+							.stop()
+							.animate({
+								left:0,
+								// scrollTop:0,
+								},{
+								duration:500,
+								complete:function(){
+										// window.scrollTo(0,0);
+										$('#pageContent').children().not($thisPanel).remove();
+										$currentPanel = $thisPanel;
+										currentNumber = thisNumber;
+										$('#backto').css('position','fixed');
+										$('#goto').css('position','fixed');
+										loadFunc();
+										$(window).off('load');
+									}
+								});
 					}else{
 						e.preventDefault();
 					}

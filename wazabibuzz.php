@@ -11,7 +11,7 @@
         <h3 class="page-headdescription">Mobile First Design, Wordpress Integration</h3>
         <p class="description-p">WaZabiBuzz is a viral media website for business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
         <br>I made this website mobile-first design because a lot of users check this kind of website with mobile devices.</p>
-        <p class="tools-p">TOOLS: HTML5, CSS3, jQuery, PHP, Wordpress, Photoshop, Illustrator</p>
+        <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, PHP, Wordpress, Photoshop, Illustrator</p>
     </div>
     </section>
     <section class="page-sec">

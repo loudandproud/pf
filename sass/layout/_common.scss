@@ -53,6 +53,12 @@ footer{
 	visibility:hidden;
 }
 
+	.ajaxloader-img{
+		position:relative;
+		top:7px;
+		width:75%;
+	}
+
 #ajaxloader:after,
 #sending:after{
 	content:"";
@@ -61,12 +67,12 @@ footer{
 	left:-10px;
 	width: 90px;
 	height: 90px;
-	border: 10px solid #FD6262;
+	border: 10px solid #2bac80;
 	border-right-color: transparent;
 	border-radius: 50%;
 	box-shadow: 0 0 25px 2px #2e2e2e;
-	animation: spin 1s linear infinite;
-	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1.3s cubic-bezier(.14,.51,.78,.96) infinite;
+	-webkit-animation: spin 1.3s cubic-bezier(.14,.51,.78,.96) infinite;
 }
 
 @-webkit-keyframes spin

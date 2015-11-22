@@ -10,7 +10,7 @@
             <h1 class="page-h1 ubc-h1">UBC Baja Website Contest</h1>
             <h3 class="page-headdescription">Interface Design &amp; HTML&amp;CSS Coding</h3>
             <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. They had a competition to renew their website's design on Decewmber 2013. All students in Web Development class at Vanarts were assigned to perticipate in the competition. We had to submit two graphic designs of thier webpage. I was really happy to be chosen as a winner.</p>
-            <p class="tools-p">HTML5, CSS3, jQuery, Photoshop, Illustrator</p>
+            <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, Photoshop, Illustrator</p>
         </div>
     </section>
     <section class="page-sec">

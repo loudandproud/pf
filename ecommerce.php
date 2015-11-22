@@ -11,7 +11,7 @@
             <h3 class="page-headdescription">User Interface Design</h3>
             <p class="description-p">Snow Freak was an e-commerce interface design project. Students were assigned to design two pages of whatever product they chose for Home&amp;Product page.
              I chose snow-gear as a theme and researched over 20 snow-gear <br> e-commerce websites, and found some common points for successful e-commerce website design.</p>
-            <p class="tools-p">TOOLS: Photoshop, Illustrator</p>
+            <p class="tools-p"><i class="fa fa-wrench"></i> : Photoshop, Illustrator</p>
        </div>
     </section>
     <section class="page-sec">
@@ -42,7 +42,7 @@
        </div>
     </section>
     <section class="page-sec">
-       <div class="ecm-wfpd">
+       <div class="page-inner">
                 <img src="img/ecommerce/ecm-prd-wf.png" alt="ecommerce-wireframe" class="ecm-productwf-img">
        </div>
     </section>

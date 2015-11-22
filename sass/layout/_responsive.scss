@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 1140px) {
-	.goto-contact{
+	.pf-goto-contact{
 		margin-right:0;
 		right:2%;
 	}
@@ -36,6 +36,12 @@
 		left:50%;
 		margin-left:-600px;
 	}
+
+	.goto-contact{
+		right:50%;
+		margin-right:-700px;
+	}
+
 }
 
 @media (min-width: 1400px) {
