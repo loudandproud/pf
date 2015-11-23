@@ -1,44 +1,23 @@
 $(function(){
 	var $this,
-		default_content,
-		$currentPanel,
-		currentNumber,
-		lasturl;
-
+		thisNumber,
+		lasturl,
 	//put current panel data
-		$currentPanel = $('#pageContent').children('.panel');
-		currentNumber = $currentPanel.data('number');
-		default_content = $('#pageContent').html();
+		$currentPanel = $('#pageContent').children('.panel'),
+	//put current panel's number	
+		currentNumber = $currentPanel.data('number'),
+	//put defualt content	
+		default_content = $('#pageContent').html(),
 	//put navs in footer to object	
-		var $navFooter = $('#navbar-ul').find('.nav');
-		navClick($navFooter);
-	//execute loadFunc to put navs in panel
+		$navFooter = $('#navbar-ul').find('.nav');
+	//execute loadFunc for each landing page
 		loadFunc();
 
-	// //test onhashchange
-	// window.onhashchange = hashChange;
-	// function hashChange(){
-	// 	var currentHash = location.hash;
-	// 	console.log("hash cahnge. current hash is "+currentHash);
-	// }	
 
-	//click action to move to next page
-	function navClick($nav){
-		$nav.click(function (e){
-				$(window).off('scroll');//when link is clicked, seemywork scroll function stops.
-				$this = $(this);
-				checkURL(this.hash);
-				// e.preventDefault();
-		});
-	}
-	
 	function loadFunc(){
-	//put navs in panel	to object
-		var $navPanel = $('.panel').find('.nav');
-		navClick($navPanel);
-				
 		var panelId = $('.panel').attr('id'),
 			scrollHeight;//Store scroll height
+			console.log(panelId);
 
 		if(panelId=='about'){
 		//about page background color change	
@@ -51,7 +30,7 @@ $(function(){
 					position: '100%'
 				}]
 			});
-		//about page seemywork fadein/fadeout
+			//about page seemywork fadein/fadeout
 			var	gotoTop = $('#goto').css('bottom'),
 				gotoTop = parseInt(gotoTop),
 				abtbottomTop = $('#about-bottom').offset().top;
@@ -59,13 +38,33 @@ $(function(){
 					scrollHeight = $(this).scrollTop() + gotoTop;
 					if(abtbottomTop < scrollHeight){
 						$('#goto').css('background-image','url(img/about/seemywork.png)');
-						$('#goto-pf-img').attr('src','img/arrow-r.png')					
+						$('#goto-pf-img').attr('src','img/arrow-r.png');			
 					}else if(scrollHeight < abtbottomTop){
 						$('#goto').css('background-image','url(img/about/seemywork-w.png)');
-						$('#goto-pf-img').attr('src','img/arrow-rw.png')					
+						$('#goto-pf-img').attr('src','img/arrow-rw.png');			
 					}
 				});
 		}//about page function	
+
+		if(panelId=='portfolio'){
+			var	gotoTop = $('#goto').css('top'),
+				gotoTop = parseInt(gotoTop),
+				ecmTop = $('#portfolio-ecm').offset().top,
+				rkwTop = $('#portfolio-rgk').offset().top;
+				$(window).on('scroll',function(){
+					scrollHeight = $(this).scrollTop() + gotoTop;
+					if(scrollHeight < ecmTop){
+						$('#goto').css('background-image','url(img/contactme-w.png)');
+						$('#goto-contact-img').attr('src','img/arrow-rw.png');
+					}else if(ecmTop < scrollHeight&&scrollHeight<rkwTop){
+						$('#goto').css('background-image','url(img/contactme.png)');
+						$('#goto-contact-img').attr('src','img/arrow-r.png');			
+					}else if(rkwTop < scrollHeight){
+						$('#goto').css('background-image','url(img/contactme-w.png)');
+						$('#goto-contact-img').attr('src','img/arrow-rw.png');	
+					}
+				});
+		}
 
 		//Gazette page function
 		if(panelId=='gazettemag'){
@@ -144,10 +143,41 @@ $(function(){
 				});
 			});
 		}//finish contact form
-		
+
 	}//finish loadFunc()
 
-	
+	//Detect changing hash tag
+	window.onhashchange = hashChange;
+	function hashChange(){
+		if(location.hash == "#home"){
+			thisNumber = 1;
+		}else if(location.hash == "#about"){
+			thisNumber = 2;
+		}else if(location.hash == "#portfolio"){
+			thisNumber = 3;
+		}else if(location.hash == "#gazettemag"){
+			thisNumber = 4;
+		}else if(location.hash == "#ubcbaja"){
+			thisNumber = 5;
+		}else if(location.hash == "#newsportal"){
+			thisNumber = 6;
+		}else if(location.hash == "#ecommerce"){
+			thisNumber = 7;
+		}else if(location.hash == "#reggiekey"){
+			thisNumber = 8;
+		}else if(location.hash == "#wazabibuzz"){
+			thisNumber = 9;
+		}else if(location.hash == "#typography"){
+			thisNumber = 10;
+		}else if(location.hash == "#contact"){
+			thisNumber = 11;
+		}else if(location.hash == ""){//If the first landing page is index.php, it doesn't have a hash so it needs to be put a hash.
+			location.hash = "#home";
+			thisNumber = 1;
+		}
+		checkURL(location.hash);
+	}
+		
 	//Checking hash tag
 	function checkURL(hash){
 		if(!hash) hash=window.location.hash;
@@ -164,7 +194,6 @@ $(function(){
 			return false;
 		}
 	}
-	
 	
 	//Fetching next page data
 	function loadPage(urlName)
@@ -188,13 +217,12 @@ $(function(){
 	
 	//Slide out current page and slide in next page
 	function pageSlide(data){
-		var thisTarget = $this.attr('href');
+		var thisTarget = location.hash;//deprecated catching a hash from $this.attr('href');
 			$('#pageContent').append(data);
-		var $thisPanel = $('#pageContent').children(thisTarget);
+		var	$thisPanel = $('#pageContent').children(thisTarget);
 			$thisPanel.css('opacity',0);
 			
 		$(window).on('load', function(){//wait for image loading
-			//load background image on portfolio page
 			if($thisPanel.attr('id') == 'portfolio'){
 				var $section = $('.portfolio').children('section');
 				$section.each(function(index, element){
@@ -203,78 +231,73 @@ $(function(){
 					$('#'+id).css('background-image','url('+background+')');					
 				});
 			}
-			
+			//Hide ajax loader
 			$('#ajaxloader').css('visibility','hidden');
-			
-			var	thisWidth = $thisPanel.width(),
-				thisNumber = $this.data('number'),
-				currentWidth = $currentPanel.width();
-				$('#backto').css('position','absolute');
-				$('#goto').css('position','absolute');
+			//not let backto and goto buttons move.
+			$('#backto').css('position','absolute');
+			$('#goto').css('position','absolute');
+			var windowWidth = $(window).width();
+
+			if(currentNumber < thisNumber){
+				$currentPanel
+					.stop()
+					.animate({
+								left:-(windowWidth)
+							},500);
+				$("body,html").animate({scrollTop:0},500);	
+				$thisPanel.css({
+					opacity:1,
+					left: windowWidth
+				})
+					.stop()
+					.animate({
+						left:0,
+						// scrollTop:0,
+						},{
+						duration:500,
+						complete:function(){
+								// window.scrollTo(0,0);
+								$('#pageContent').children().not($thisPanel).remove();
+								$currentPanel = $thisPanel;
+								currentNumber = thisNumber;
+								$('#backto').css('position','fixed');
+								$('#goto').css('position','fixed');
+								loadFunc();
+								$(window).off('load');
+							}
+						});
+			}else if(thisNumber < currentNumber){
+				$currentPanel
+					.stop()
+					.animate({
+							left : windowWidth
+						}, 500);
 				
-					if(currentNumber < thisNumber){
-						$currentPanel
-							.stop()
-							.animate({
-										left:-(currentWidth)
-									},500);
-						$("body,html").animate({scrollTop:0},500);	
-						$thisPanel.css({
-							opacity:1,
-							left: thisWidth
-						})
-							.stop()
-							.animate({
-								left:0,
-								// scrollTop:0,
-								},{
-								duration:500,
-								complete:function(){
-										// window.scrollTo(0,0);
-										$('#pageContent').children().not($thisPanel).remove();
-										$currentPanel = $thisPanel;
-										currentNumber = thisNumber;
-										$('#backto').css('position','fixed');
-										$('#goto').css('position','fixed');
-										loadFunc();
-										$(window).off('load');
-									}
-								});
-					}else if(thisNumber < currentNumber){
-						$currentPanel
-							.stop()
-							.animate({
-									left : currentWidth
-								}, 500);
-						
-						$("body,html").animate({scrollTop:0},500);	
-						$thisPanel.css({
-							opacity:1,
-							left:-(thisWidth)
-						})
-							.stop()
-							.animate({
-								left:0,
-								// scrollTop:0,
-								},{
-								duration:500,
-								complete:function(){
-										// window.scrollTo(0,0);
-										$('#pageContent').children().not($thisPanel).remove();
-										$currentPanel = $thisPanel;
-										currentNumber = thisNumber;
-										$('#backto').css('position','fixed');
-										$('#goto').css('position','fixed');
-										loadFunc();
-										$(window).off('load');
-									}
-								});
-					}else{
-						e.preventDefault();
-					}
+				$("body,html").animate({scrollTop:0},500);	
+				$thisPanel.css({
+					opacity:1,
+					left:-(windowWidth)
+				})
+					.stop()
+					.animate({
+						left:0,
+						// scrollTop:0,
+						},{
+						duration:500,
+						complete:function(){
+								// window.scrollTo(0,0);
+								$('#pageContent').children().not($thisPanel).remove();
+								$currentPanel = $thisPanel;
+								currentNumber = thisNumber;
+								$('#backto').css('position','fixed');
+								$('#goto').css('position','fixed');
+								loadFunc();
+								$(window).off('load');
+							}
+						});
+			}
 		});
-		$(window).trigger('load');				
-								
+		$(window).trigger('load');//Trigger window load						
 	}//pageSlide()
 		
 });	
