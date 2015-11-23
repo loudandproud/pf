@@ -1,6 +1,6 @@
     <div id="portfolio" class="panel" data-number="3">
         <div class="portfolio">
-            <a href="#contact" data-number="11" class="nav goto-contact  pf-goto-contact" id="goto">
+            <a href="#contact" data-number="11" class="nav goto-contact  pf-goto-contact" id="goto-contact">
                 <img src="img/arrow-rw.png"  alt="go-to-contact" class="goto-contact-img" id="goto-contact-img">
             </a>
             <section class="portfolio-gzt" id="portfolio-gzt" data-background="http://toruinamoto.com/img/gazettemag/gazettemag-bg.jpg">

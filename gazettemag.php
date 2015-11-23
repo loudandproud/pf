@@ -1,9 +1,9 @@
 <div id="gazettemag" class="panel" data-number="4">
-    <a href="#portfolio" data-number="3" class="nav backto-pf" id="backto">
-        <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img" id="backto-pf-img">
+    <a href="#portfolio" data-number="3" class="nav backto-pf" id="backfrom-gzt">
+        <img src="img/arrow-l.png"  alt="back-to-about" class="backto-pf-img" id="backfrom-gzt-img">
     </a>
-    <a href="#contact" data-number="10" class="nav goto-contact" id="goto">
-        <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img" id="goto-contact-img">
+    <a href="#contact" data-number="10" class="nav goto-contact" id="gofrom-gzt">
+        <img src="img/arrow-r.png"  alt="go-to-contact" class="goto-contact-img" id="gofrom-gzt-img">
     </a>
     <section class="page-sec cf">
         <div class="page-inner-top">

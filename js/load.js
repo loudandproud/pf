@@ -7,17 +7,14 @@ $(function(){
 	//put current panel's number	
 		currentNumber = $currentPanel.data('number'),
 	//put defualt content	
-		default_content = $('#pageContent').html(),
-	//put navs in footer to object	
-		$navFooter = $('#navbar-ul').find('.nav');
+		default_content = $('#pageContent').html();
 	//execute loadFunc for each landing page
 		loadFunc();
 
 
 	function loadFunc(){
 		var panelId = $('.panel').attr('id'),
-			scrollHeight;//Store scroll height
-			console.log(panelId);
+			scrollHeight = "";//Store scroll height
 
 		if(panelId=='about'){
 		//about page background color change	
@@ -31,60 +28,36 @@ $(function(){
 				}]
 			});
 			//about page seemywork fadein/fadeout
-			var	gotoTop = $('#goto').css('bottom'),
+				gotoTop = $('#goto-pf').css('bottom'),
 				gotoTop = parseInt(gotoTop),
 				abtbottomTop = $('#about-bottom').offset().top;
 				$(window).on('scroll',function(){
 					scrollHeight = $(this).scrollTop() + gotoTop;
 					if(abtbottomTop < scrollHeight){
-						$('#goto').css('background-image','url(img/about/seemywork.png)');
+						$('#goto-pf').css('background-image','url(img/about/seemywork.png)');
 						$('#goto-pf-img').attr('src','img/arrow-r.png');			
 					}else if(scrollHeight < abtbottomTop){
-						$('#goto').css('background-image','url(img/about/seemywork-w.png)');
+						$('#goto-pf').css('background-image','url(img/about/seemywork-w.png)');
 						$('#goto-pf-img').attr('src','img/arrow-rw.png');			
 					}
 				});
-		}//about page function	
-
-		if(panelId=='portfolio'){
-			var	gotoTop = $('#goto').css('top'),
-				gotoTop = parseInt(gotoTop),
-				ecmTop = $('#portfolio-ecm').offset().top,
-				rkwTop = $('#portfolio-rgk').offset().top;
-				$(window).on('scroll',function(){
-					scrollHeight = $(this).scrollTop() + gotoTop;
-					if(scrollHeight < ecmTop){
-						$('#goto').css('background-image','url(img/contactme-w.png)');
-						$('#goto-contact-img').attr('src','img/arrow-rw.png');
-					}else if(ecmTop < scrollHeight&&scrollHeight<rkwTop){
-						$('#goto').css('background-image','url(img/contactme.png)');
-						$('#goto-contact-img').attr('src','img/arrow-r.png');			
-					}else if(rkwTop < scrollHeight){
-						$('#goto').css('background-image','url(img/contactme-w.png)');
-						$('#goto-contact-img').attr('src','img/arrow-rw.png');	
-					}
-				});
-		}
+		}//about page function
 
 		//Gazette page function
 		if(panelId=='gazettemag'){
 			var	gztConcept = $('#gzt-concept').offset().top,
 				gztAds = $('#gzt-ads').offset().top,
 				gztCirc = $('#gzt-circ').offset().top;
-
-				// console.log($('#gzt-concept').offset().top);
-
 			$(window).on('scroll',function(){
 				scrollHeight = $(this).scrollTop();
-				
 				if(gztConcept < scrollHeight && scrollHeight < gztAds){
-					$('#goto').css('background-image','url(img/contactme-w.png)');
-					$('#goto-contact-img').attr('src','img/arrow-rw.png');
-					$('#backto-pf-img').attr('src','img/arrow-lw.png');
+					$('#gofrom-gzt').css('background-image','url(img/contactme-w.png)');
+					$('#gofrom-gzt-img').attr('src','img/arrow-rw.png');
+					$('#backfrom-gzt-img').attr('src','img/arrow-lw.png');
 				}else{
-					$('#goto').css('background-image','url(img/contactme.png)');
-					$('#goto-contact-img').attr('src','img/arrow-r.png');
-					$('#backto-pf-img').attr('src','img/arrow-l.png');				
+					$('#gofrom-gzt').css('background-image','url(img/contactme.png)');
+					$('#gofrom-gzt-img').attr('src','img/arrow-r.png');
+					$('#backfrom-gzt-img').attr('src','img/arrow-l.png');	
 				}
 
 				if(gztAds < scrollHeight && scrollHeight < gztCirc){
@@ -196,8 +169,7 @@ $(function(){
 	}
 	
 	//Fetching next page data
-	function loadPage(urlName)
-	{
+	function loadPage(urlName){
 		urlName=urlName.replace('#','');
 		$('#ajaxloader').css('visibility','visible');
 		
@@ -226,8 +198,8 @@ $(function(){
 			if($thisPanel.attr('id') == 'portfolio'){
 				var $section = $('.portfolio').children('section');
 				$section.each(function(index, element){
-					var id = $(element).attr('id');
-					var background = $(element).data('background');
+					var id = $(element).attr('id'),
+						background = $(element).data('background');
 					$('#'+id).css('background-image','url('+background+')');					
 				});
 			}
@@ -235,7 +207,11 @@ $(function(){
 			$('#ajaxloader').css('visibility','hidden');
 			//not let backto and goto buttons move.
 			$('#backto').css('position','absolute');
+			$('#backfrom-gzt').css('position','absolute');
 			$('#goto').css('position','absolute');
+			$('#goto-pf').css('position','absolute');
+			$('#goto-contact').css('position','absolute');
+			$('#gofrom-gzt').css('position','absolute');
 			var windowWidth = $(window).width();
 
 			if(currentNumber < thisNumber){
@@ -261,7 +237,11 @@ $(function(){
 								$currentPanel = $thisPanel;
 								currentNumber = thisNumber;
 								$('#backto').css('position','fixed');
+								$('#backfrom-gzt').css('position','fixed');
 								$('#goto').css('position','fixed');
+								$('#goto-pf').css('position','fixed');
+								$('#goto-contact').css('position','fixed');
+								$('#gofrom-gzt').css('position','fixed');
 								loadFunc();
 								$(window).off('load');
 							}
@@ -280,8 +260,7 @@ $(function(){
 				})
 					.stop()
 					.animate({
-						left:0,
-						// scrollTop:0,
+						left:0
 						},{
 						duration:500,
 						complete:function(){
@@ -290,7 +269,11 @@ $(function(){
 								$currentPanel = $thisPanel;
 								currentNumber = thisNumber;
 								$('#backto').css('position','fixed');
+								$('#backfrom-gzt').css('position','fixed');
 								$('#goto').css('position','fixed');
+								$('#goto-pf').css('position','fixed');
+								$('#goto-contact').css('position','fixed');
+								$('#gofrom-gzt').css('position','fixed');
 								loadFunc();
 								$(window).off('load');
 							}

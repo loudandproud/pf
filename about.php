@@ -1,5 +1,5 @@
 <div id="about" class="panel" data-number="2">
-    <a href="#portfolio" data-number="3" class="nav goto-pf-w" id="goto">
+    <a href="#portfolio" data-number="3" class="nav goto-pf-w" id="goto-pf">
         <img src="img/arrow-rw.png" alt="go-to-portfolio" class="goto-pf-img" id="goto-pf-img">
     </a>
    <div class="about">

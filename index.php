@@ -21,7 +21,7 @@
 <script src="js/lib/jquery-1.11.1.min.js"></script>
 <script src="js/lib/jquery.mousewheel.js"></script>
 <script src="js/lib/jquery.colorscroll.js"></script>
-<script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript" src="js/min/load.min.js"></script>
 </head>
  
 <body>
