@@ -15,7 +15,8 @@
                   <div id="form-messages"></div>
                 <button type="submit" class="submit">Send</button>
             </form>
+            <a href="https://ca.linkedin.com/in/toru-inamoto-44a31784" class="sns-a" target="_blank"><img src="img/linkedin.jpg" class="sns-icons" alt="linkedin logo"></a>
+            <a href="https://github.com/loudandproud" class="sns-a"target="_blank"><img src="img/github.jpg" class="sns-icons" alt="github logo"></a>
         </section>
-        <div id="sending">Sending...</div>
     </div>
 </div>

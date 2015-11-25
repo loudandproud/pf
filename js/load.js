@@ -11,7 +11,6 @@ $(function(){
 	//execute loadFunc for each landing page
 		loadFunc();
 
-
 	function loadFunc(){
 		var panelId = $('.panel').attr('id'),
 			scrollHeight = "";//Store scroll height
@@ -88,7 +87,7 @@ $(function(){
 			// Set up an event listener for the contact form.
 			$(form).submit(function(e) {
 				e.preventDefault();
-				$('#sending').css('visibility','visible');
+				$('#ajaxloader').css('visibility','visible');
 				var formData = $(form).serialize();
 				$.ajax({
 					type: 'POST',
@@ -96,7 +95,7 @@ $(function(){
 					data: formData
 				})
 				.done(function(response) {
-					$('#sending').css('visibility','hidden');
+					$('#ajaxloader').css('visibility','hidden');
 					$(formMessages).removeClass('error');
 					$(formMessages).addClass('success');
 					$(formMessages).text(response);
@@ -105,7 +104,7 @@ $(function(){
 					$('#message').val('');
 				})
 				.fail(function(data) {
-					$('#sending').css('visibility','hidden');
+					$('#ajaxloader').css('visibility','hidden');
 					$(formMessages).removeClass('success');
 					$(formMessages).addClass('error');
 					if (data.responseText !== '') {
