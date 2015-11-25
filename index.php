@@ -14,14 +14,13 @@
 <meta name="description" content="Hi! I'm Toru, a web designer/developer based in Vancouver. Find out how I can help you."/>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.ico?v=1" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <script src="js/lib/jquery-1.11.1.min.js"></script>
 <script src="js/lib/jquery.mousewheel.js"></script>
 <script src="js/lib/jquery.colorscroll.js"></script>
-<script type="text/javascript" src="js/min/load.min.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
 </head>
  
 <body>

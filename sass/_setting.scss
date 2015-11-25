@@ -14,56 +14,40 @@ $portfolio-font-family:"NeuzeitGro", Roboto2014, "Open Sans", Verdana, sans-seri
 
 	@font-face {
 		font-family:Candida;
-		src:url('fonts/CandidaStd-Roman.otf'),url('fonts/CandidaStd-Roman.ttf') format('truetype');
-
+		src: url('fonts/CandidaStd-Roman.eot');src: url('fonts/CandidaStd-Roman.eot?#iefix') format('embedded-opentype'),url('fonts/CandidaStd-Roman.woff') format('woff'),url('fonts/CandidaStd-Roman.ttf') format('truetype'),url('fonts/CandidaStd-Roman.otf') format('opentype');
 	}
 
 	@font-face {
 		font-family:Candida;
 		font-weight:800;
-		src:url('fonts/CandidaStd-Bold.otf'),url('fonts/CandidaStd-Bold.ttf') format('truetype');
+		src: url('fonts/CandidaStd-Bold.eot');src: url('fonts/CandidaStd-Bold.eot?#iefix') format('embedded-opentype'),url('fonts/CandidaStd-Bold.woff') format('woff'),url('fonts/CandidaStd-Bold.ttf') format('truetype'),url('fonts/CandidaStd-Bold.otf') format('opentype');
 	}
 
 	@font-face {
 		font-family:Roboto2014;
-		src:url(fonts/Roboto-Regular.ttf);
+		src:url(fonts/Roboto-Regular.ttf) format('truetype');
 	}
 
 	@font-face {
 		font-family:Roboto2014;
 		font-weight:100;
-		src:url(fonts/Roboto-Light.ttf);
+		src:url(fonts/Roboto-Light.ttf) format('truetype');
 	}
 
 	@font-face {
 		font-family:Roboto2014;
 		font-weight:800;
-		src:url(fonts/Roboto-Bold.ttf);
+		src:url(fonts/Roboto-Bold.ttf) format('truetype');
 	}
 
 	@font-face {
 		font-family:Gurmukh;
-		src:url(fonts/GurmukhiMN.ttf);
+		src:url(fonts/GurmukhiMN.ttf) format('truetype');
 	}
 
 	@font-face {font-family: 'NeuzeitGro';font-weight:800;src: url('webfonts/2FA093_0_0.eot');src: url('webfonts/2FA093_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA093_0_0.woff2') format('woff2'),url('webfonts/2FA093_0_0.woff') format('woff'),url('webfonts/2FA093_0_0.ttf') format('truetype');}
  
 	@font-face {font-family: 'NeuzeitGro';src: url('webfonts/2FA093_1_0.eot');src: url('webfonts/2FA093_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA093_1_0.woff2') format('woff2'),url('webfonts/2FA093_1_0.woff') format('woff'),url('webfonts/2FA093_1_0.ttf') format('truetype');}
-
-	// @font-face {font-family: 'Sanchez-Regular';src: url('webfonts/2FA0A6_0_0.eot');src: url('webfonts/2FA0A6_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA0A6_0_0.woff2') format('woff2'),url('webfonts/2FA0A6_0_0.woff') format('woff'),url('webfonts/2FA0A6_0_0.ttf') format('truetype');}
-
-	// @font-face {
-	//     font-family: 'museo_slab';
-	//     src: url('webfonts/Museo_Slab_500_2-webfont.eot');
-	//     src: url('webfonts/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
-	//          url('webfonts/Museo_Slab_500_2-webfont.woff2') format('woff2'),
-	//          url('webfonts/Museo_Slab_500_2-webfont.woff') format('woff'),
-	//          url('webfonts/Museo_Slab_500_2-webfont.ttf') format('truetype'),
-	//          url('webfonts/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
-	//     font-weight: normal;
-	//     font-style: normal;
-
-	// }
 
 }
 

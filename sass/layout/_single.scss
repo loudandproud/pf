@@ -222,7 +222,6 @@
 		top: 65px;
 	}
 
-
 .page-tablet{
 	float: left;
 	position: relative;
@@ -319,10 +318,15 @@
 	max-width:none;
 }
 
+.gzt-cardstop-p,
+.gzt-ftimgs-p{
+	margin-bottom:1rem;
+}
+
 .gzt-circulation{
 	float:right;
 	width:46%;
-	padding-left:80px;
+	// padding-left:80px;
 	@include body-font;
 }
 
@@ -390,7 +394,6 @@
 		top: 67px;
 	}
 
-
 .gzt-adclicks{
 	margin-bottom:90px;
 	color:#464646;
@@ -405,7 +408,6 @@
 	width:920px;
 	margin:0 auto 100px;
 }
-
 
 .gzt-adpc{
 	float:left;
@@ -549,6 +551,9 @@
 	margin-top: -1930px;
 }
 
+.gzt-sps-p{
+	margin-bottom:30px;
+}
 
 .gzt-tstmnl-left{
 	float:left;
@@ -755,7 +760,7 @@
 }
 
 	.ubc-spsr-smp:hover{
-		margin-top: -2740px;
+		margin-top: -2113px;
 	}
 
 .ubc-spsr-tbl{
@@ -1074,8 +1079,6 @@
 // 	border-top:1px solid #ddd;
 // }
 
-
-
 /*******************************
 
 	Innerpage - Typography
@@ -1129,7 +1132,6 @@
 	width:1000px;
 	margin:20px 0;
 }
-
 	
 .easprocess-img{
 	margin:0 auto;

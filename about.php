@@ -59,7 +59,7 @@
                     </p>
                     
                 </div>
-                <img src="img/about/about.png" alt="profile-picture" class="about-myself">
+                <img src="img/about/about.jpg" alt="profile-picture" class="about-myself">
             </div>
         </section>
     </div><!--about-->

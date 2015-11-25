@@ -223,12 +223,11 @@ $(function(){
 				$("body,html").animate({scrollTop:0},500);	
 				$thisPanel.css({
 					opacity:1,
-					left: windowWidth
+					left: windowWidth,
 				})
 					.stop()
 					.animate({
 						left:0,
-						// scrollTop:0,
 						},{
 						duration:500,
 						complete:function(){
@@ -250,17 +249,17 @@ $(function(){
 				$currentPanel
 					.stop()
 					.animate({
-							left : windowWidth
+							left : windowWidth,
 						}, 500);
 				
 				$("body,html").animate({scrollTop:0},500);	
 				$thisPanel.css({
 					opacity:1,
-					left:-(windowWidth)
+					left:-(windowWidth),
 				})
 					.stop()
 					.animate({
-						left:0
+						left:0,
 						},{
 						duration:500,
 						complete:function(){

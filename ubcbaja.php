@@ -59,7 +59,7 @@
     <section class="page-sec">
         <div class="page-inner-3devices">
             <div class="ubc-mockup">
-                <h3 class="ubc-inner-h3-mockup">Home page Mockup</h3>
+                <h3 class="page-h2 ubc-h2">Home page Mockup</h3>
                 <p class="ubc-homemockup-p">&lowast;The graphics of the banner and the ad on background are sponsorship company's work.</p>
             </div>
             <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">

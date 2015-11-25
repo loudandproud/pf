@@ -9,10 +9,11 @@
         <div class="page-inner-top">
             <h1 class="page-h1 gzt-h1">Gazette Magazine</h1>
             <h3 class="page-headdescription">Core Concept, Magazine Layout, Deep customized Wordpress theme</h3>
-            <p class="description-p">Gazette Magazine is a local art, culture, and news magazine. The magazine started from Gastown two years ago. It featured local events, underground arts, music, fashion, and people living in Gastown.
-            The magazine successfully published first hard-copy version this January, and the second issue will come out soon.
+            <p class="description-p">Gazette Magazine is a local art, culture, and news magazine. 
+            The magazine started at Gastown two years ago. It featured local events, underground arts, music, fashion, and people living in Gastown. 
+            The magazine successfully published first hard-copy version last January, and the second issue will come out soon.
             </p>
-            <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, SASS, Gulp, jQuery, PHP, MySQL, Photoshop, Illustrator</p>
+            <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, SASS, Gulp, jQuery, Ajax, PHP, MySQL, Wordpress, Photoshop, Illustrator</p>
         </div>
     </section>
     <section class="page-sec">
@@ -23,12 +24,16 @@
     <section class="page-sec gzt-b1" id="gzt-concept">
         <div class="page-inner">
             <div class="cf">
-                <div class="wfdescription gzt-cards-sec">
+                <div class="gzt-cards-sec">
                     <h2 class="page-h2 gzt-h2">It started from concept making</h2>
-                    <p>The first thing that I realized was lacking of concept. I believe inspiring people by their concept is essential for a medium company,
-                    so an enthusiastic email explaining the importance of having a concept was sent to all the core member. <br>
-                    Talents gathered, and a brainstorming meeting was taken place.
-                    After two intensive meetings, a strap line that our thoughts condensed emerged; <br> <i>&ldquo;Evolve together.&rdquo;</i></p>
+                    <p class="gzt-cardstop-p">The first thing that I realized was lacking of concept. I believe giving people inspiration is essential for a medium company, 
+                    and concept is a core factor which affects all the branding and content strategy.
+                    </p>
+                    <p>
+                    An enthusiastic email explaining the importance of having a concept was sent to all the core members. 
+                    The talents gathered, and a brainstorming meeting was taken place. After two intensive meetings, a strap line that our thoughts condensed emerged;
+                    <br> <i>"Evolve together."</i>
+                    </p>
                 </div>
                 <img src="img/gazettemag/cards2.png" class="gzt-cards">
             </div>
@@ -38,11 +43,10 @@
         <div class="page-inner">
             <div class="cf">
                 <img src="img/gazettemag/pc-home.jpg" class="gzt-left">
-                <div class="wfdescription gzt-right">
+                <div class="gzt-right">
                     <h2 class="page-h2 gzt-h2">It dramatically shows featured images</h2>
-                    <p>The beautiful images were used in the entire website. Editorials talk about heart-felt stories of local people, artists, and community.
-                    The concept "Evolove together." inspired me to layout images dynamically so that it resonates those sentimental stories to readers.
-                    </p>
+                    <p class="gzt-ftimgs-p">The beautiful images were used in the entire website. Some editorials talk about heart-felt stories of local people, artists, and community.</p>
+                    <p>The concept "Evolove together." inspired me to layout images spectacularly so that it resonates those sentimental stories to readers.</p>
                 </div>
             </div>
         </div>
@@ -50,8 +54,12 @@
     <section class="page-sec gzt-b3" id="gzt-ads">
         <div class="page-inner">
             <div class="gzt-adclicks">
-                <h2 class="page-h2 gzt-h2">Doubled ad-clicks</h2>
-                <p class="gzt-ad-p">Banners are not only ads, it also gives the layout rhythm. The ad revenue is a key engines of medium business. Advertising should be, yet it matches the design. </p>
+                <h2 class="page-h2 gzt-h2">Doubled the number of ad-clicks</h2>
+                <p class="gzt-ad-p">
+                Banners are not merely ads, it also gives the layout rhythm. Banner areas are carefully decided to match the layout. 
+                It also rotates other banners on each ad-area for every ten seconds. The ad revenue is a key engine of medium business. 
+                The new layout doubled the number of banner-clicks, and increased advertising revenues which was huge for a medium company.
+                </p>
             </div>
             <div class="cf gzt-ads1">
                 <div class="gzt-adphone gzt-adphone1">
@@ -89,17 +97,17 @@
                     </div>
                 </div>
                 <div class="gzt-circulation">
-                    <h2 class="page-h2 gzt-h2">Circulation matters</h2>
-                    <p class="ubc-sps-p">Users can smoothly move to next post by scrolling.
-                    Related posts are placed under the post and on the sidebar of desktop.
-
-                    That enhances user&prime;s circulation.
+                    <h2 class="page-h2 gzt-h2">Circulation matters... and branding too</h2>
+                    <p class="gzt-sps-p">Users can smoothly move to next post by scrolling. 
+                    Related posts are placed under each post and on the sidebar of desktop. That enhances user′s circulation.
                     </p>
+                    <p>You might also notice that the brand slogan; "Evolve together." is placed under the content area  of each post with their logo.
+                    That helps to link user's feeling with the content, and ties various stories into one concept.</p>
                 </div>
             </div>
         </div>
     </section>    
-    <section class="page-sec cf tip">
+<!--     <section class="page-sec cf tip">
         <div class="page-inner">
             <h2 class="page-h2 ">What they had to say...</h2>
             <div class="tstmnl cf">
@@ -108,6 +116,6 @@
                 <span class="tstmnl-spn">Dani Kremeniuk, Art Director</span>
             </div>
         </div>
-    </section>
+    </section> -->
     <a href="https://gazettemag.com" class="viewsite" target="_blank">View Site</a>
 </div><!-- Gazettemag -->
