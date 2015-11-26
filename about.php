@@ -4,7 +4,7 @@
     </a>
    <div class="about">
 	<section class="about-lead-sec">
-        <h1 class="about-h1">I create simple, clean, and well-<br>organized User Interface and delightful User Experience, <br>and bring ideas to life with solid engineering skills.</h1>
+        <h1 class="about-h1">I create a simple, clean, and well-<br>organized User Interface and delightful User Experience, <br>and bring ideas to life with solid engineering skills.</h1>
         <div class="about-offer">
             <h2 class="about-h2">I can offer . . .</h2>
             <ul class="about-offer-ul1 cf">
@@ -35,7 +35,7 @@
                     <img src="img/about/detailprecision.svg" alt="Beautiful design with detail and precision">
                 </li>
             </ul>
-            <h3 class="about-h3-lead">I also can do if you need . . .</h3>
+            <h3 class="about-h3-lead">I also can do. . .</h3>
             <ul class="about-offer-ul2">
                 <li>Wordpress Integration</li>
                 <li>Joomla Integration</li>
@@ -49,13 +49,13 @@
                     <h3 class="about-h3">A little about myself</h3>
                     <p class="about-biography">
                         &ldquo;I'm Toru.  I've been told, I'm a &#x2606; web designer / developer because I engage every client mindfully.
-                        I wanna feel, intuitively comprehend along with understanding of what are each project requirements. My action-steps cater to each client individually which leads to creating an experience--effective solutions, evocative designs.
+                        I want to feel, intuitively comprehend, along with understand what each project requires. My action-steps cater to each client individually which leads to creating experience--effective solutions and evocative designs.
                     </p>
                     <p class="about-biography">
-                        I love samba percussion ensemble of Batucada and music ranging from jazz to hip hop to house to Hawaiian raggae and more. Just like I create music notes from piano imitating film soundtrack compilations from The Legend of 1900, I let the rhythm and groves and beat inspire coding, conjure up design and resolve tech challenges to deliver clear messages in design.  The rhythms also aid in keeping time, my timing is on-time mode.  I finish and deliver protects on time.
+                        I love samba percussion ensembles of Batucada and music ranging from jazz to hip hop to house to Hawaiian reggae, not only that, I create music notes from piano imitating film soundtrack compilations from The Legend of 1900. I let the rhythm and grooves and beat inspire coding, conjure up design and resolve tech challenges to deliver clear messages in design.  The rhythms also aid in keeping time, my timing is on-time mode.  I finish and deliver protects on time.
                     </p>
                     <p class="about-biography">
-                        Wanna work on a project with me??&rdquo; 
+                        Want to work on a project with me??&rdquo; 
                     </p>
                     
                 </div>

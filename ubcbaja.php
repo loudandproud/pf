@@ -9,7 +9,7 @@
         <div class="page-inner-top">
             <h1 class="page-h1 ubc-h1">UBC Baja Website Contest</h1>
             <h3 class="page-headdescription">Interface Design &amp; HTML&amp;CSS Coding</h3>
-            <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. They had a competition to renew their website's design on Decewmber 2013. All students in Web Development class at Vanarts were assigned to perticipate in the competition. We had to submit two graphic designs of thier webpage. I was really happy to be chosen as a winner.</p>
+            <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. They had a competition to renew their website's design in December 2013. All students in Web Development class at Vanarts were assigned to participate in the competition. We had to submit two graphic designs of their webpage. I was really happy to be chosen as the winner.</p>
             <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, Photoshop, Illustrator</p>
         </div>
     </section>
@@ -25,16 +25,16 @@
                 <ul class="disc-listred">
                     <li><span class="listred-inner">Design of website layout and one sub page layout</span></li>
                     <li><span class="listred-inner">Feature high quality photographs</span></li>
-                    <li><span class="listred-inner">Connecting with Facebook page</span></li>
+                    <li><span class="listred-inner">Connect with Facebook page</span></li>
                     <li><span class="listred-inner">Blog roll while maintaining high visibility of sponsor logos</span></li>
-                    <li><span class="listred-inner">Clean design, righ images, showing serious style that convinces sponsorship its worthy partnering</span></li>
+                    <li><span class="listred-inner">Clean design, rich images, showing serious style that convinces sponsorship that it is worth partnering with them.</span></li>
                 </ul>
             </div>
             <div class="ubc-inner-right">    
                 <h2 class="page-h2 ubc-h2">Concept</h2>
                 <ul class="disc-listblue">
                     <li><span class="listblue-inner">Featured big ad space that will benefit the sponsorships</span></li>
-                    <li><span class="listblue-inner">Clean, Stylish, Car-Racing feeling that also look serious</span></li>
+                    <li><span class="listblue-inner">Clean, Stylish, Car-Racing feeling that also looks serious</span></li>
                     <li><span class="listblue-inner">Easy to navigate, well-organized Information Architecture</span></li>
                     <li><span class="listblue-inner">+Fully responsive webdesign</span></li>
                 </ul>
@@ -60,7 +60,7 @@
         <div class="page-inner-3devices">
             <div class="ubc-mockup">
                 <h3 class="page-h2 ubc-h2">Home page Mockup</h3>
-                <p class="ubc-homemockup-p">&lowast;The graphics of the banner and the ad on background are sponsorship company's work.</p>
+                <p class="ubc-homemockup-p">&lowast;The graphics of the banner and the background image are the sponsorship company's work.</p>
             </div>
             <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
         </div>            
@@ -68,7 +68,7 @@
     <section class="page-sec bg2 bg-b">
         <div class="page-inner">
         <h2 class="page-h2 ubc-h2">Sponsorship page Wireframe and Feature</h2>
-            <p class="ubc-sps-p">The Sponsorship price chart on their former website was a bit of confusing.<br>So I reorganize to make it more simple structure.</p>
+            <p class="ubc-sps-p">The Sponsorship price chart on their former website was a bit confusing.<br>So I reorganized it to make it more simple.</p>
             <div class="sps-img cf">
                 <img src="img/ubcbaja/sponsorship-before.jpg" alt="ubc-sponsorship-before" class="sps-before">
                 <img src="img/ubcbaja/arrow.png" alt="ubc-spponsorship-arrow" class="sps-arrow">             
@@ -79,7 +79,7 @@
     <section class="page-sec cf">
         <div class="page-inner">
             <h2 class="page-h2 ubc-h2">Mobile Layout</h2>
-            <p class="ubc-sps-p">Please hover the devices to see the whole page.</p>
+            <p class="ubc-sps-p">Please hover over the devices to see the whole page.</p>
             <div class="ubc-mobile tip cf">
                 <div class="page-smartphone">
                     <div class="ubc-hover-phone">Hover the phone!</div>

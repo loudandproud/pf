@@ -9,7 +9,7 @@
     <div class="page-inner-top">
         <h1 class="page-h1 wzb-h1">WaZabiBuzz</h1>
         <h3 class="page-headdescription">Mobile First Design, Wordpress Integration</h3>
-        <p class="description-p">WaZabiBuzz is a viral media website for business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
+        <p class="description-p">WaZabiBuzz is a viral media website for the business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
         <br>I made this website mobile-first design because a lot of users check this kind of website with mobile devices.</p>
         <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, PHP, Wordpress, Photoshop, Illustrator</p>
     </div>
@@ -27,14 +27,14 @@
             <img src="img/wazabibuzz/wzb-wireframe.jpg" alt="wazabibuzz-wireframe" class="wzb-wf">
             <img src="img/wazabibuzz/code.jpg" width="456" height="600" alt="wazabibuzz-code" class="wzb-code">
         </div>
-        <p class="inner-p">After I coded the basic structure, I made it into custom Wordpress template and integrated with Wordpress.</p>
+        <p class="inner-p">After I coded the basic structure, I made it into a custom Wordpress theme and integrated with Wordpress.</p>
        <img src="img/wazabibuzz/wzb-wordpress.jpg" alt="waabibuzz-wordpress">
        </div>
     </section>
     <section class="page-sec bg2">
        <div class="page-inner">
         <h2 class="page-h2">Navigation for mobile device</h2>
-            <p class="inner-p wzb-mobnav-p">When user touch the navigation button, the menu slides in from the left side. </p>
+            <p class="inner-p wzb-mobnav-p">When users touch the navigation button, the menu slides in from the left side. </p>
             <div class="page-smartphone wzb-mobnav">
                 <div class="wzb-hover-phone">Hover the phone!</div>
                 <div class="wzb-smartphone-inner"> 
@@ -46,14 +46,14 @@
     <section class="page-sec bg1 bg-b">
        <div class="page-inner">
             <h2 class="page-h2">Inner page design for Desktop</h2>
-            <p class="inner-p">The website aims to have its content shared by users. It focuses on two social media websites, Facebook and Twitter, of which share buttons are placed on the right top section and the middle of page. </p>
+            <p class="inner-p">The website aims to have its content shared by users. It focuses on two social media websites, Facebook and Twitter, of which share buttons are placed on the right top section and the middle of the page. </p>
            <img src="img/wazabibuzz/wzb-inner-pagepc.jpg" alt="wazabibuzz-inner-page-pc" class="inner-wzb-pagepc">
        </div>
     </section>    
     <section class="page-sec">
        <div class="page-inner">
         <h2 class="page-h2">Inner page design for mobile</h2>
-        <p class="inner-p">Please hover the devices to see the whole page.</p>
+        <p class="inner-p">Please hover over the devices to see the whole page.</p>
             <div class="wzb-page-mobile cf">
                 <div class="page-smartphone">
                     <div class="wzb-hover-phone">Hover the phone!</div>

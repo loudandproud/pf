@@ -10,7 +10,7 @@
             <h1 class="page-h1 ecm-h1">Snow Freak</h1>
             <h3 class="page-headdescription">User Interface Design</h3>
             <p class="description-p">Snow Freak was an e-commerce interface design project. Students were assigned to design two pages of whatever product they chose for Home&amp;Product page.
-             I chose snow-gear as a theme and researched over 20 snow-gear <br> e-commerce websites, and found some common points for successful e-commerce website design.</p>
+             I chose snow-gear as a theme and researched over 20 snow-gear e-commerce websites, and found some common points for successful e-commerce website design.</p>
             <p class="tools-p"><i class="fa fa-wrench"></i> : Photoshop, Illustrator</p>
        </div>
     </section>
@@ -25,16 +25,16 @@
             <div class="ecm-wfpd-wrap cf">
                 <ol class="wfdescription ecm-wf-pd">
                         <li>Featured product image is zoomed in when users hover</li>
-                        <li>Three different image taken from different angles</li>
+                        <li>Three different images taken from different angles</li>
                         <li>Detailed video</li>
                         <li>Showing the quantity of remaining products</li>
-                        <li>Clearly showing products that on sale</li>
+                        <li>Clearly showing products that are on sale</li>
                         <li>Easy to select size</li>
 
                         <li>Vivid orange color &quot;add to cart&quot; button</li>
                         <li>Support services right beside content area</li>
                         <li>Showing size and specs in charts</li>
-                        <li>Concise description</li>
+                        <li>Concise descriptions</li>
                         <li>Customer reviews</li>
                         <li>Related products that other customers viewed</li>
                 </ol>
@@ -58,7 +58,7 @@
             <div class="cf">
                 <ol class="wfdescription ecm-wf-home">
                     <li>Easy to find telephone number in header</li>
-                    <li>Easily accessable search bar in header</li>
+                    <li>Easily accessible search bar in header</li>
                     <li>Add to cart button on the right corner</li>
                     <li>Large featured product image</li>
                     <li>Other featured products</li>

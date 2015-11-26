@@ -9,8 +9,8 @@
            <div class="page-inner-top">
                 <h1 class="page-h1 nwp-h1">Direct Marketing News</h1>
                 <h3 class="page-headdescription">Interface Design and Development for Frontend&amp;Backend </h3>
-                <p class="description-p">Direct Marketing News is a portal website for programming class. We were assigned to chose one topic and to build a portal website with custom CMS. 
-                The fun part of this project was to build dynamic interaction between Frontend and Backend using Ajax. Providing good readibility with any devices was also challenging.</p>
+                <p class="description-p">Direct Marketing News is a portal website for a programming class. We were assigned to chose one topic and to build a portal website with custom CMS. 
+                The fun part of this project was to build dynamic interaction between Frontend and Backend using Ajax. Providing good readibility with any device was also challenging.</p>
                 <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, Ajax, PHP, MySQL, Photoshop, Illustrator</p>
            </div>
         </section>
@@ -22,7 +22,7 @@
         <section class="page-sec bg1">
            <div class="page-inner">
             <h2 class="page-h2 nwp-inner-h2">Frontend Functionality</h2>
-            <p class="inner-p">Articles show the login form and sign-up link under the graied out shorten content unless users login.</p>
+            <p class="inner-p">Unless users login, articles show the login form and sign-up link under the grayed out content.</p>
             <img src="img/newsportal/login-front.jpg" alt="backend-login" class="nwp-img">
            </div>
         </section>    
