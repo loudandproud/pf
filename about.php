@@ -52,7 +52,7 @@
                         I want to feel, intuitively comprehend, along with understand what each project requires. My action-steps cater to each client individually which leads to creating experience--effective solutions and evocative designs.
                     </p>
                     <p class="about-biography">
-                        I love samba percussion ensembles of Batucada and music ranging from jazz to hip hop to house to Hawaiian reggae, not only that, I create music notes from piano imitating film soundtrack compilations from The Legend of 1900. I let the rhythm and grooves and beat inspire coding, conjure up design and resolve tech challenges to deliver clear messages in design.  The rhythms also aid in keeping time, my timing is on-time mode.  I finish and deliver protects on time.
+                        I love samba percussion ensembles of Batucada and music ranging from jazz to hip hop to house to Hawaiian reggae, not only that, I create music notes from piano imitating film soundtrack compilations from The Legend of 1900. I let the rhythm and grooves and beat inspire coding, conjure up design and resolve tech challenges to deliver clear messages in design. The rhythms also aid in keeping time, my timing is on-time mode. I finish and deliver projects on time.
                     </p>
                     <p class="about-biography">
                         Want to work on a project with me??&rdquo; 

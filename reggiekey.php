@@ -43,7 +43,7 @@
     <section class="page-sec bg1 bg-b">
         <div class="page-inner">
             <h2 class="page-h2 rgk-h2">Navigation</h2>
-            <p class="inner-p">To represet his multiple talents, I chose different background colors for each navigation menu.</p>
+            <p class="inner-p">To represent his multiple talents, I chose different background colors for each navigation menu.</p>
             <img src="img/reggiekeyswatson/navigations.jpg" alt="reggiekey-navigation">
             
         </div>

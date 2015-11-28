@@ -31,7 +31,7 @@
                     </p>
                     <p>
                     An enthusiastic email explaining the importance of having a concept was sent to all the core members. 
-                    The talents gathered, and a brainstorming meeting took place. After two intensive meetings, we streamlined our thoughts into one core idea;
+                    The talents gathered, and a brainstorming meeting took place. After much discussion and debate, a strapline emerged:
                     <br> <i>"Evolve together."</i>
                     </p>
                 </div>
