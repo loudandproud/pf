@@ -107,15 +107,15 @@
             </div>
         </div>
     </section>    
-<!--     <section class="page-sec cf tip">
+    <section class="page-sec cf tip">
         <div class="page-inner">
             <h2 class="page-h2 ">What they had to say...</h2>
             <div class="tstmnl cf">
-                <img src="img/gazettemag/dani.jpg" alt="gazette-magazine-testmimonial" class="gzt-tstmnl-left">
-                <p class="gzt-tstmnl-right">Toru is second to none.</p>
-                <span class="tstmnl-spn">Dani Kremeniuk, Art Director</span>
+                <img src="img/gazettemag/andy.jpg" alt="gazette-magazine-testmimonial" class="gzt-tstmnl-left">
+                <p class="gzt-tstmnl-right">Toru has demonstrated an ability to deliver high quality work. He is able to identify problems, develop solutions, and implement them within a team environment. Toru is innovative and quality driven in all aspects of his work.</p>
+                <span class="tstmnl-spn">Andy Patton President, NWCE Ltd</span>
             </div>
         </div>
-    </section> -->
+    </section>
     <a href="https://gazettemag.com" class="viewsite" target="_blank">View Site</a>
 </div><!-- Gazettemag -->

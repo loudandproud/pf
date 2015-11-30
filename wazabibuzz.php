@@ -24,10 +24,9 @@
         <h2 class="page-h2">Creation Process</h2>
         <p class="inner-p">I took a Progress Enhancement aproach to design this website. I made the design for mobile first, and added more content when displayed with desktop and laptop computers. The code also starts for smartphone first.</p>
         <div class="wzb-wfcode cf">
-            <img src="img/wazabibuzz/wzb-wireframe.jpg" alt="wazabibuzz-wireframe" class="wzb-wf">
-            <img src="img/wazabibuzz/code.jpg" width="456" height="600" alt="wazabibuzz-code" class="wzb-code">
+            <img src="img/wazabibuzz/wzb-sketch-wireframe.jpg" alt="wazabibuzz wireframe sketch">
         </div>
-        <p class="inner-p">After I coded the basic structure, I made it into a custom Wordpress theme and integrated with Wordpress.</p>
+        <p class="inner-p wzb-code">After I coded the basic structure, I made it into a custom Wordpress theme and integrated with Wordpress.</p>
        <img src="img/wazabibuzz/wzb-wordpress.jpg" alt="waabibuzz-wordpress">
        </div>
     </section>

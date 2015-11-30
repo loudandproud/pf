@@ -558,6 +558,7 @@
 .gzt-tstmnl-left{
 	float:left;
 	width:135px;
+	border-radius:50%;
 }
 
 .gzt-tstmnl-right{
@@ -566,7 +567,7 @@
 	font-size:20px;
 	color:#888;
 	margin-left:40px;
-	margin-top:4px;
+	margin-top:16px;
 	margin-bottom:13px;
 }
 
@@ -802,6 +803,7 @@
 	.ubc-tstmnl-left{
 		float:left;
 		width:135px;
+		border-radius:50%;
 	}
 	
 	.ubc-tstmnl-right{
@@ -1028,17 +1030,21 @@
 	}
 
 .wzb-wfcode{
-	margin-bottom:60px;
+	margin-bottom:120px;
 }
 
-	.wzb-wf,
-	.wzb-code{
-		float:left;
-		border: 1px solid #e7e7e7;
-	}
+	// .wzb-wf,
+	// .wzb-code{
+	// 	float:left;
+	// 	border: 1px solid #e7e7e7;
+	// }
 		
-	.wzb-wf{
-		margin-right: 40px;
+	// .wzb-wf{
+	// 	margin-right: 40px;
+	// }
+
+	.wzb-code{
+		margin-bottom:60px;
 	}
 
 				
